@@ -1,0 +1,940 @@
+﻿Log file open, 05/11/18 22:07:16
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: ArtisanReunion
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1006402301) SRandInit(1006402302).
+LogInit: Read version file with build ID '3944462'
+LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
+LogInit: Registered custom module enumerator with build ID '3944462'
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.179097
+LogD3D11RHI: Aftermath initialized
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperSpriteSheetImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-PaperTiledImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-SmartSnapping.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeRuntime.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Blendables/LightPropagationVolume/Binaries/Win64/UE4Editor-LightPropagationVolumeEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/CLionSourceCodeAccess/Binaries/Win64/UE4Editor-CLionSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/GitSourceControl/Binaries/Win64/UE4Editor-GitSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/PerforceSourceControl/Binaries/Win64/UE4Editor-PerforceSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/SubversionSourceControl/Binaries/Win64/UE4Editor-SubversionSourceControl.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/UObjectPlugin/Binaries/Win64/UE4Editor-UObjectPlugin.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioCodeSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioCodeSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Developer/VisualStudioSourceCodeAccess/Binaries/Win64/UE4Editor-VisualStudioSourceCodeAccess.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/AssetManagerEditor/Binaries/Win64/UE4Editor-AssetManagerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeys.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/CryptoKeys/Binaries/Win64/UE4Editor-CryptoKeysOpenSSL.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/DataValidation/Binaries/Win64/UE4Editor-DataValidation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimation.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/FacialAnimation/Binaries/Win64/UE4Editor-FacialAnimationEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/GameplayTagsEditor/Binaries/Win64/UE4Editor-GameplayTagsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/MobileLauncherProfileWizard/Binaries/Win64/UE4Editor-MobileLauncherProfileWizard.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/PluginBrowser/Binaries/Win64/UE4Editor-PluginBrowser.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Editor/SpeedTreeImporter/Binaries/Win64/UE4Editor-SpeedTreeImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Enterprise/DatasmithContent/Binaries/Win64/UE4Editor-DatasmithContent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicImporter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/AlembicImporter/Binaries/Win64/UE4Editor-AlembicLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/CharacterAI/Binaries/Win64/UE4Editor-CharacterAI.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Experimental/HTML5Networking/Binaries/Win64/UE4Editor-HTML5Networking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AndroidMedia/Binaries/Win64/UE4Editor-AndroidMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/AvfMedia/Binaries/Win64/UE4Editor-AvfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-ImgMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/ImgMedia/Binaries/Win64/UE4Editor-OpenExrWrapper.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/LinearTimecode/Binaries/Win64/UE4Editor-LinearTimecode.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositing.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaCompositing/Binaries/Win64/UE4Editor-MediaCompositingEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/MediaPlayerEditor/Binaries/Win64/UE4Editor-MediaPlayerEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMedia.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Media/WmfMedia/Binaries/Win64/UE4Editor-WmfMediaFactory.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/TcpMessaging/Binaries/Win64/UE4Editor-TcpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Messaging/UdpMessaging/Binaries/Win64/UE4Editor-UdpMessaging.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/ActorSequence/Binaries/Win64/UE4Editor-ActorSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/LevelSequenceEditor/Binaries/Win64/UE4Editor-LevelSequenceEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/MovieScene/MatineeToLevelSequence/Binaries/Win64/UE4Editor-MatineeToLevelSequence.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NetcodeUnitTest/Binaries/Win64/UE4Editor-NetcodeUnitTest.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/NetcodeUnitTest/NUTUnrealEngine4/Binaries/Win64/UE4Editor-NUTUnrealEngine4.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystem/Binaries/Win64/UE4Editor-OnlineSubsystem.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidPermission/Binaries/Win64/UE4Editor-AndroidPermission.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemNull/Binaries/Win64/UE4Editor-OnlineSubsystemNull.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineSubsystemUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Online/OnlineSubsystemUtils/Binaries/Win64/UE4Editor-OnlineBlueprintSupport.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AndroidDeviceProfileSelector/Binaries/Win64/UE4Editor-AndroidDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AppleARKit/Binaries/Win64/UE4Editor-AppleARKit.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ProceduralMeshComponent/Binaries/Win64/UE4Editor-ProceduralMeshComponentEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLink.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Animation/LiveLink/Binaries/Win64/UE4Editor-LiveLinkEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ArchVisCharacter/Binaries/Win64/UE4Editor-ArchVisCharacter.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCapture.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/AudioCapture/Binaries/Win64/UE4Editor-AudioCaptureEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CableComponent/Binaries/Win64/UE4Editor-CableComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/CustomMeshComponent/Binaries/Win64/UE4Editor-CustomMeshComponent.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ExampleDeviceProfileSelector/Binaries/Win64/UE4Editor-ExampleDeviceProfileSelector.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysics.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/ImmediatePhysics/Binaries/Win64/UE4Editor-ImmediatePhysicsEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/LocationServicesBPLibrary/Binaries/Win64/UE4Editor-LocationServicesBPLibrary.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/MobilePatchingUtils/Binaries/Win64/UE4Editor-MobilePatchingUtils.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusHMD.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusInput.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Binaries/Win64/UE4Editor-OculusEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehicles.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/PhysXVehicles/Binaries/Win64/UE4Editor-PhysXVehiclesEditor.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/RuntimePhysXCooking/Binaries/Win64/UE4Editor-RuntimePhysXCooking.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVR.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/Steam/SteamVR/Binaries/Win64/UE4Editor-SteamVRController.dll (API version 3944462).
+LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/Runtime/WindowsMoviePlayer/Binaries/Win64/UE4Editor-WindowsMoviePlayer.dll (API version 3944462).
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LiveLink
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleARKit
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  1.454s to configure plugins.
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: WinSock: I am DESKTOP-LPQT5LQ (10.0.0.82:0)
+LogInit: Build: ++UE4+Release-4.19-CL-4033788
+LogInit: Engine Version: 4.19.2-4033788+++UE4+Release-4.19
+LogInit: Compatible Engine Version: 4.19.0-3944462+++UE4+Release-4.19
+LogInit: Net CL: 3944462
+LogDevObjectVersion: Number of dev versions registered: 18
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 23
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 33
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 25
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 6
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 1
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 2
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 16
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogInit: Compiled (64-bit): Apr 27 2018 02:06:57
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.19
+LogInit: Command Line:  
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.19/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.05.12-02.07.18:802][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.12-02.07.18:802][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.12-02.07.18:812][  0]LogInit: Computer: DESKTOP-LPQT5LQ
+[2018.05.12-02.07.18:813][  0]LogInit: User: Jeremy
+[2018.05.12-02.07.18:813][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.12-02.07.18:813][  0]LogInit: High frequency timer resolution =2.929690 MHz
+[2018.05.12-02.07.18:813][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.12-02.07.18:813][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.12-02.07.18:813][  0]LogMemory: Process Physical Memory: 273.39 MB used, 273.39 MB peak
+[2018.05.12-02.07.18:813][  0]LogMemory: Process Virtual Memory: 266.20 MB used, 266.20 MB peak
+[2018.05.12-02.07.18:813][  0]LogMemory: Physical Memory: 4064.16 MB used,  4023.75 MB free, 8087.92 MB total
+[2018.05.12-02.07.18:813][  0]LogMemory: Virtual Memory: 674.51 MB used,  4023.75 MB free, 134217728.00 MB total
+[2018.05.12-02.07.18:834][  0]LogInit: Using OS detected language (en-US).
+[2018.05.12-02.07.18:834][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.12-02.07.18:838][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.12-02.07.19:268][  0]LogStreaming: Display: Took  0.434s to EndInitTextLocalization.
+[2018.05.12-02.07.19:268][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.12-02.07.19:303][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.12-02.07.19:303][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.12-02.07.19:515][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.12-02.07.19:526][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.05.12-02.07.19:526][  0]LogD3D11RHI:       128/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2018.05.12-02.07.19:528][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.12-02.07.19:528][  0]LogD3D11RHI:       0/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.12-02.07.19:528][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.12-02.07.19:534][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.12-02.07.19:534][  0]LogD3D11RHI:     GPU DeviceId: 0x5912 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.12-02.07.19:534][  0]LogWindows: EnumDisplayDevices:
+[2018.05.12-02.07.19:534][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.05.12-02.07.19:534][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.05.12-02.07.19:534][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.12-02.07.19:534][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.12-02.07.19:534][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
+[2018.05.12-02.07.19:534][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.12-02.07.19:534][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.12-02.07.19:534][  0]LogRHI: Texture pool is 1504 MB (70% of 2149 MB)
+[2018.05.12-02.07.19:543][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.12-02.07.19:548][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.05.12-02.07.19:549][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Intermediate/Shaders/WorkingDirectory/12636/).
+[2018.05.12-02.07.19:549][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jeremy/AppData/Local/Temp/UnrealShaderWorkingDir/DF71DDE94E23EADF0AA5EEABBFAB5EB0/'.
+[2018.05.12-02.07.19:897][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.12-02.07.19:911][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.12-02.07.19:925][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.12-02.07.19:939][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.12-02.07.19:953][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.12-02.07.19:967][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.12-02.07.19:981][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.12-02.07.19:995][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.12-02.07.20:002][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.12-02.07.20:014][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.12-02.07.20:026][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.12-02.07.20:038][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.12-02.07.20:051][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.12-02.07.20:062][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.12-02.07.20:074][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.12-02.07.20:098][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.12-02.07.20:098][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.12-02.07.20:110][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.12-02.07.20:111][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.12-02.07.20:150][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.12-02.07.20:161][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.12-02.07.20:173][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.12-02.07.20:185][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.12-02.07.20:197][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.12-02.07.20:209][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.12-02.07.20:210][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.12-02.07.20:343][  0]LogXGEController: Cleaning working directory: C:/Users/Jeremy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.12-02.07.20:343][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.12-02.07.20:343][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.12-02.07.20:343][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.12-02.07.21:026][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.12-02.07.21:096][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.12-02.07.21:096][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.12-02.07.21:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.12-02.07.21:097][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.12-02.07.21:097][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.12-02.07.21:097][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.12-02.07.21:113][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.12-02.07.21:126][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.12-02.07.21:126][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.12-02.07.21:126][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.12-02.07.21:137][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.12-02.07.21:138][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.12-02.07.21:138][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.12-02.07.21:138][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.12-02.07.21:292][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2018.05.12-02.07.21:615][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.12-02.07.21:772][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.12-02.07.21:776][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.12-02.07.21:776][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.12-02.07.21:776][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.12-02.07.21:776][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.12-02.07.21:776][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.12-02.07.21:816][  0]LogNetVersion: ArtisanReunion , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2763199368)
+[2018.05.12-02.07.22:332][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.120883 seconds
+[2018.05.12-02.07.22:339][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.12-02.07.22:339][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.12-02.07.22:339][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.12-02.07.24:153][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.12-02.07.24:188][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.12-02.07.24:736][  0]SourceControl: Source control is disabled
+[2018.05.12-02.07.24:736][  0]SourceControl: Source control is disabled
+[2018.05.12-02.07.24:762][  0]SourceControl: Source control is disabled
+[2018.05.12-02.07.24:790][  0]SourceControl: Source control is disabled
+[2018.05.12-02.07.25:449][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.12-02.07.25:686][  0]LogOcInput: OculusInput pre-init called
+[2018.05.12-02.07.25:812][  0]LogEngine: Initializing Engine...
+[2018.05.12-02.07.25:814][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.12-02.07.25:815][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.12-02.07.25:815][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.12-02.07.26:050][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.12-02.07.26:079][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.12-02.07.26:230][  0]LogInit: FAudioDevice initialized.
+[2018.05.12-02.07.26:457][  0]LogDerivedDataCache: Saved boot cache 0.23s 74MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.12-02.07.26:471][  0]LogInit: Texture streaming: Enabled
+[2018.05.12-02.07.26:496][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.12-02.07.26:510][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={B870AC50-4911-C31D-1259-2FB05C80A86A}
+[2018.05.12-02.07.26:534][  0]LogInit: Transaction tracking system initialized
+[2018.05.12-02.07.26:568][  0]BlueprintLog: New page: Editor Load
+[2018.05.12-02.07.26:667][  0]LocalizationService: Localization service is disabled
+[2018.05.12-02.07.26:776][  0]LogLinker: Warning: Can't find file '/Game/FlyingBP/FlyingOverview'
+[2018.05.12-02.07.26:776][  0]LogLinker: Warning: Can't find file '/Game/FlyingBP/FlyingOverview'
+[2018.05.12-02.07.26:776][  0]LogUObjectGlobals: Warning: Failed to find object 'Class /Game/FlyingBP/FlyingOverview.FlyingOverview_C'
+[2018.05.12-02.07.27:086][  0]LogConsoleResponse: Display: 
+[2018.05.12-02.07.27:248][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.12-02.07.27:248][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.12-02.07.27:248][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.12-02.07.27:248][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.12-02.07.27:248][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.12-02.07.27:710][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/' took 0.01s
+[2018.05.12-02.07.27:756][  0]SourceControl: Source control is disabled
+[2018.05.12-02.07.27:756][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.12-02.07.27:757][  0]LightingResults: New page: Lighting Build
+[2018.05.12-02.07.27:760][  0]MapCheck: New page: Map Check
+[2018.05.12-02.07.27:760][  0]LightingResults: New page: Lighting Build
+[2018.05.12-02.07.27:825][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x00000209fc188580, Size=360, Default__SideScrollerCharacter_C Function /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:ExecuteUbergraph_SideScrollerCharacter
+[2018.05.12-02.07.27:842][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x00000209fc188580, Size=360
+[2018.05.12-02.07.27:842][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020980ea8100, Size=360, Default__SideScrollerCharacter_C Function /Engine/Transient.REINST_SideScrollerCharacter_C_1:ExecuteUbergraph_SideScrollerCharacter
+[2018.05.12-02.07.27:848][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000020980e78280, Size=360, Default__SideScrollerCharacter_C Function /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:ExecuteUbergraph_SideScrollerCharacter
+[2018.05.12-02.07.27:917][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.299690ms] /Game/SideScrollerBP/Character/PaperCrane_Player.PaperCrane_Player
+[2018.05.12-02.07.27:927][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.12-02.07.27:934][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.12-02.07.27:949][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000020980ea8100, Size=360
+[2018.05.12-02.07.27:950][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.12-02.07.28:034][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 84.066ms to complete.
+[2018.05.12-02.07.28:034][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.277
+[2018.05.12-02.07.28:175][  0]LogCollectionManager: Loaded 0 collections in 0.002349 seconds
+[2018.05.12-02.07.28:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Collections/' took 0.01s
+[2018.05.12-02.07.28:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/Developers/Jeremy/Collections/' took 0.01s
+[2018.05.12-02.07.28:223][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/Collections/' took 0.01s
+[2018.05.12-02.07.28:223][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.12-02.07.28:234][  0]LogContentBrowser: Native class hierarchy populated in 0.0102 seconds. Added 2452 classes and 558 folders.
+[2018.05.12-02.07.28:243][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.12-02.07.28:304][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.12-02.07.28:310][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.12-02.07.29:489][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.12-02.07.29:512][  0]LogSlate: Took 0.000229 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.12-02.07.29:516][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.12-02.07.29:521][  0]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.12-02.07.29:611][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ArtisanReunion
+[2018.05.12-02.07.29:611][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.12-02.07.29:611][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.05.12-02.07.29:611][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.12-02.07.29:611][  0]LogTemp: BranchPath = DESKTOP-LPQT5LQ/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-LPQT5LQ/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.05.12-02.07.29:611][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jeremy\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.12-02.07.29:611][  0]LogRenderer: Reallocating scene render targets to support 652x388 Format 9 NumSamples 1 (Frame:1).
+[2018.05.12-02.07.30:011][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.12-02.07.30:012][  0]LogLoad: (Engine Initialization) Total time: 14.28 seconds
+[2018.05.12-02.07.30:012][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.12-02.07.30:023][  0]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-02.07.30:048][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.05.12-02.07.30:061][  0]LogSlate: Took 0.000211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.12-02.07.30:290][  1]LogAssetRegistry: Asset discovery search completed in 9.0215 seconds
+[2018.05.12-02.07.30:292][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.05.12-02.07.30:292][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2018.05.12-02.07.31:230][  5]LogSlate: Took 0.000298 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.12-02.08.02:918][335]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
+[2018.05.12-02.08.03:205][335]LogUObjectGlobals: Created PersistentFrame Addr=0x00000209e82b4b30, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.12-02.08.03:205][335]LogUObjectGlobals: Created PersistentFrame Addr=0x00000209e82b4b28, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.12-02.08.03:646][335]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.12-02.08.03:756][336]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.12-02.08.06:824][414]LogSlate: Window 'SideScrollerCharacter' being destroyed
+[2018.05.12-02.08.08:406][576]LogRenderer: Reallocating scene render targets to support 728x464 Format 9 NumSamples 1 (Frame:1).
+[2018.05.12-02.28.41:287][907]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.02.20:929][970]Cmd: TRANSACTION UNDO
+[2018.05.12-03.02.20:930][970]LogEditorTransaction: Undo Move Actors
+[2018.05.12-03.02.25:489][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-03.03.04:154][  8]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.03.04:456][  8]LogSavePackage: Save=200.16ms
+[2018.05.12-03.03.04:456][  8]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/SideScrollerExampleMap_Auto1A5F898EC4FE828326E43DD8E012E9456.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2018.05.12-03.03.04:460][  8]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
+[2018.05.12-03.03.04:463][  8]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.283
+[2018.05.12-03.03.04:463][  8]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.283
+[2018.05.12-03.05.05:523][616]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-03.05.21:195][719]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-03.05.36:095][708]LogEditorViewport: Clicking Background
+[2018.05.12-03.06.59:332][862]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-03.08.10:140][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-03.08.57:203][566]Cmd: SELECT NONE
+[2018.05.12-03.08.58:067][614]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.09.16:251][965]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.09.38:596][537]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.09.48:408][292]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-03.09.49:714][377]LogActorFactory: Actor Factory created Cube
+[2018.05.12-03.09.51:097][449]LogActorFactory: Actor Factory created Cube
+[2018.05.12-03.09.55:894][724]Cmd: DELETE
+[2018.05.12-03.09.55:894][724]Cmd: ACTOR DELETE
+[2018.05.12-03.09.55:918][724]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.05.12-03.09.55:940][724]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2018.05.12-03.09.57:381][820]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.09.58:319][907]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.10.13:466][896]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-03.10.24:500][696]Cmd: EDIT COPY
+[2018.05.12-03.10.24:838][716]Cmd: EDIT PASTE
+[2018.05.12-03.10.29:933][ 20]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.10.29:979][ 20]LogSlate: Took 0.036287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2018.05.12-03.10.35:048][421]Cmd: SELECT NONE
+[2018.05.12-03.10.41:983][901]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.10.42:851][988]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.12-03.10.42:891][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.12-03.10.42:905][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.12-03.10.42:981][988]PIE: New page: PIE session: SideScrollerExampleMap (May 11, 2018, 7:10:42 PM)
+[2018.05.12-03.10.42:999][988]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.05.12-03.10.43:084][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.084997s)
+[2018.05.12-03.10.43:085][988]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.12-03.10.43:085][988]LogPlayLevel: PIE: World Init took: (0.001581s)
+[2018.05.12-03.10.43:086][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.086804s)
+[2018.05.12-03.10.43:167][988]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.12-03.10.43:174][988]LogInit: FAudioDevice initialized.
+[2018.05.12-03.10.43:175][988]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.10.43:249][988]LogLoad: Game class is 'SideScrollerGameMode_C'
+[2018.05.12-03.10.43:315][988]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.11-23.10.43
+[2018.05.12-03.10.43:331][988]LogWorld: Bringing up level for play took: 0.039103
+[2018.05.12-03.10.43:476][988]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.05.12-03.10.43:562][988]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.463
+[2018.05.12-03.10.43:563][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.12-03.11.04:409][343]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.12-03.11.04:487][343]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.12-03.11.17:385][201]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-03.12.06:677][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-03.13.27:441][ 29]LogSavePackage: Save=723.12ms
+[2018.05.12-03.13.27:441][ 29]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/SideScrollerExampleMap_Auto2AB3CDF014B0243D3AF838885D473F319.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap'
+[2018.05.12-03.13.27:470][ 29]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto2.umap
+[2018.05.12-03.13.27:474][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.797
+[2018.05.12-03.13.27:474][ 29]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.797
+[2018.05.12-05.01.22:745][927]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-05.02.03:814][650]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/BOOK.fbx)
+[2018.05.12-05.02.04:082][650]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.12-05.02.04:082][650]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.12-05.02.04:082][650]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.12-05.02.04:082][650]LogFbx: ItemName: Material, ItemCount : 4
+[2018.05.12-05.02.04:090][650]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/BOOK.fbx
+[2018.05.12-05.02.04:120][650]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-05.02.06:513][650]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.12-05.02.06:593][650]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/BOOK.fbx
+[2018.05.12-05.02.06:600][650]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-05.02.06:760][650]LogMaterial: Missing cached shader map for material book1, compiling. 
+[2018.05.12-05.02.06:926][650]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.12-05.02.06:926][650]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.12-05.02.06:926][650]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.12-05.02.06:943][650]LogMaterial: Missing cached shader map for material gold, compiling. 
+[2018.05.12-05.02.06:969][650]LogMaterial: Missing cached shader map for material page, compiling. 
+[2018.05.12-05.02.06:997][650]LogMaterial: Missing cached shader map for material black, compiling. 
+[2018.05.12-05.02.07:007][650]LogFbx: Warning: Triangulating static mesh Cube
+[2018.05.12-05.02.07:371][650]LogStaticMesh: Building static mesh BOOK...
+[2018.05.12-05.02.07:690][650]LogStaticMesh: Built static mesh [0.32s] /Game/OFFICE/BOOK.BOOK
+[2018.05.12-05.02.07:909][650]LogStaticMesh: Warning: BOOK has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.12-05.02.07:910][650]LogStaticMesh: Warning: BOOK has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.05.12-05.02.08:746][650]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.12-05.02.08:746][650]FBXImport: Warning: BOOK has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.12-05.02.08:746][650]FBXImport: Warning: BOOK has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.05.12-05.02.08:866][650]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/CAB.fbx)
+[2018.05.12-05.02.08:882][650]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/CAB.fbx
+[2018.05.12-05.02.08:889][650]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-05.02.08:897][650]LogMaterial: Missing cached shader map for material wood, compiling. 
+[2018.05.12-05.02.08:907][650]LogFbx: Warning: Triangulating static mesh Cube.003
+[2018.05.12-05.02.08:932][650]LogStaticMesh: Building static mesh CAB...
+[2018.05.12-05.02.08:941][650]LogStaticMesh: Built static mesh [0.01s] /Game/OFFICE/CAB.CAB
+[2018.05.12-05.02.08:944][650]LogStaticMesh: Warning: CAB has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.12-05.02.08:944][650]LogStaticMesh: Warning: CAB has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.05.12-05.02.08:957][650]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.12-05.02.08:957][650]FBXImport: Warning: CAB has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.12-05.02.08:957][650]FBXImport: Warning: CAB has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.05.12-05.02.08:965][650]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/desk.fbx)
+[2018.05.12-05.02.08:977][650]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/desk.fbx
+[2018.05.12-05.02.08:984][650]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-05.02.08:990][650]LogMaterial: Missing cached shader map for material desk1, compiling. 
+[2018.05.12-05.02.09:003][650]LogFbx: Warning: Triangulating static mesh Cube.002
+[2018.05.12-05.02.09:022][650]LogStaticMesh: Building static mesh desk...
+[2018.05.12-05.02.09:030][650]LogStaticMesh: Built static mesh [0.01s] /Game/OFFICE/desk.desk
+[2018.05.12-05.02.09:031][650]LogStaticMesh: Warning: desk has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.12-05.02.09:032][650]LogStaticMesh: Warning: desk has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.05.12-05.02.09:045][650]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.12-05.02.09:045][650]FBXImport: Warning: desk has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.12-05.02.09:045][650]FBXImport: Warning: desk has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.05.12-05.02.09:052][650]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/Paper.fbx)
+[2018.05.12-05.02.09:069][650]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/Paper.fbx
+[2018.05.12-05.02.09:075][650]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-05.02.09:082][650]LogMaterial: Missing cached shader map for material PAPER1, compiling. 
+[2018.05.12-05.02.09:104][650]LogMaterial: Missing cached shader map for material INK, compiling. 
+[2018.05.12-05.02.09:114][650]LogFbx: Warning: Triangulating static mesh Cube
+[2018.05.12-05.02.09:170][650]LogStaticMesh: Building static mesh Paper...
+[2018.05.12-05.02.09:186][650]LogStaticMesh: Built static mesh [0.02s] /Game/OFFICE/Paper.Paper
+[2018.05.12-05.02.09:191][650]LogStaticMesh: Warning: Paper has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.12-05.02.09:191][650]LogStaticMesh: Warning: Paper has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.05.12-05.02.09:223][650]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.12-05.02.09:223][650]FBXImport: Warning: Paper has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.12-05.02.09:223][650]FBXImport: Warning: Paper has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.05.12-05.02.09:233][650]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/pensil.fbx)
+[2018.05.12-05.02.09:250][650]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/pensil.fbx
+[2018.05.12-05.02.09:256][650]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-05.02.09:262][650]LogMaterial: Missing cached shader map for material metal_green, compiling. 
+[2018.05.12-05.02.09:288][650]LogMaterial: Missing cached shader map for material pensal_yellow, compiling. 
+[2018.05.12-05.02.09:322][650]LogMaterial: Missing cached shader map for material E, compiling. 
+[2018.05.12-05.02.09:348][650]LogMaterial: Missing cached shader map for material PENSIL_WOOD, compiling. 
+[2018.05.12-05.02.09:374][650]LogMaterial: Missing cached shader map for material BLACK1, compiling. 
+[2018.05.12-05.02.09:385][650]LogFbx: Warning: Triangulating static mesh Cylinder
+[2018.05.12-05.02.09:398][650]LogStaticMesh: Building static mesh pensil...
+[2018.05.12-05.02.09:399][650]LogStaticMesh: Built static mesh [0.00s] /Game/OFFICE/pensil.pensil
+[2018.05.12-05.02.09:400][650]LogStaticMesh: Warning: pensil has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.05.12-05.02.09:411][650]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.12-05.02.09:411][650]FBXImport: Warning: pensil has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.05.12-05.02.09:424][650]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/shelf.fbx)
+[2018.05.12-05.02.09:439][650]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/shelf.fbx
+[2018.05.12-05.02.09:445][650]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-05.02.09:451][650]LogMaterial: Missing cached shader map for material shelf1, compiling. 
+[2018.05.12-05.02.09:462][650]LogFbx: Warning: Triangulating static mesh Cube.010
+[2018.05.12-05.02.09:473][650]LogStaticMesh: Building static mesh shelf...
+[2018.05.12-05.02.09:476][650]LogStaticMesh: Built static mesh [0.00s] /Game/OFFICE/shelf.shelf
+[2018.05.12-05.02.09:477][650]LogStaticMesh: Warning: shelf has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option.
+[2018.05.12-05.02.09:477][650]LogStaticMesh: Warning: shelf has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4)
+[2018.05.12-05.02.09:488][650]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.12-05.02.09:488][650]FBXImport: Warning: shelf has degenerate tangent bases which will result in incorrect shading.  MikkTSpace relies on tangent bases and may result in mesh corruption, consider disabling this option. 
+[2018.05.12-05.02.09:488][650]FBXImport: Warning: shelf has some nearly zero bi-normals which can create some issues. (Tolerance of 1E-4) 
+[2018.05.12-05.02.09:494][650]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/vase.fbx)
+[2018.05.12-05.02.09:506][650]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/vase.fbx
+[2018.05.12-05.02.09:513][650]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.12-05.02.09:519][650]LogMaterial: Missing cached shader map for material pot, compiling. 
+[2018.05.12-05.02.09:542][650]LogMaterial: Missing cached shader map for material stem, compiling. 
+[2018.05.12-05.02.09:553][650]LogLinker: Can't find file '/Script/Core'
+[2018.05.12-05.02.09:566][650]LogMaterial: Missing cached shader map for material core, compiling. 
+[2018.05.12-05.02.09:589][650]LogMaterial: Missing cached shader map for material flower, compiling. 
+[2018.05.12-05.02.09:612][650]LogMaterial: Missing cached shader map for material stem_001, compiling. 
+[2018.05.12-05.02.09:637][650]LogMaterial: Missing cached shader map for material core_001, compiling. 
+[2018.05.12-05.02.09:662][650]LogMaterial: Missing cached shader map for material flower_001, compiling. 
+[2018.05.12-05.02.09:672][650]LogShaderCompilers: Display: Shaders left to compile 418
+[2018.05.12-05.02.09:675][650]LogFbx: Warning: Triangulating static mesh Cylinder
+[2018.05.12-05.02.09:791][650]LogStaticMesh: Building static mesh vase...
+[2018.05.12-05.02.09:828][650]LogStaticMesh: Built static mesh [0.04s] /Game/OFFICE/vase.vase
+[2018.05.12-05.02.09:880][650]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.12-05.02.11:625][653]LogShaderCompilers: Display: Shaders left to compile 430
+[2018.05.12-05.02.11:959][656]LogShaderCompilers: Display: Shaders left to compile 420
+[2018.05.12-05.02.12:864][658]LogShaderCompilers: Display: Shaders left to compile 410
+[2018.05.12-05.02.13:515][660]LogShaderCompilers: Display: Shaders left to compile 400
+[2018.05.12-05.02.14:347][661]LogShaderCompilers: Display: Shaders left to compile 390
+[2018.05.12-05.02.15:227][666]LogShaderCompilers: Display: Shaders left to compile 380
+[2018.05.12-05.02.15:323][667]LogShaderCompilers: Display: Shaders left to compile 370
+[2018.05.12-05.02.16:570][669]LogShaderCompilers: Display: Shaders left to compile 360
+[2018.05.12-05.02.17:154][671]LogShaderCompilers: Display: Shaders left to compile 350
+[2018.05.12-05.02.17:230][672]LogShaderCompilers: Display: Shaders left to compile 340
+[2018.05.12-05.02.18:796][674]LogShaderCompilers: Display: Shaders left to compile 330
+[2018.05.12-05.02.18:949][676]LogShaderCompilers: Display: Shaders left to compile 320
+[2018.05.12-05.02.19:743][677]LogShaderCompilers: Display: Shaders left to compile 310
+[2018.05.12-05.02.21:237][680]LogShaderCompilers: Display: Shaders left to compile 300
+[2018.05.12-05.02.21:237][680]LogShaderCompilers: Display: Shaders left to compile 290
+[2018.05.12-05.02.21:571][681]LogShaderCompilers: Display: Shaders left to compile 280
+[2018.05.12-05.02.22:835][683]LogShaderCompilers: Display: Shaders left to compile 270
+[2018.05.12-05.02.22:955][685]LogShaderCompilers: Display: Shaders left to compile 260
+[2018.05.12-05.02.23:677][686]LogShaderCompilers: Display: Shaders left to compile 250
+[2018.05.12-05.02.24:769][687]LogShaderCompilers: Display: Shaders left to compile 240
+[2018.05.12-05.02.24:867][689]LogShaderCompilers: Display: Shaders left to compile 230
+[2018.05.12-05.02.25:870][692]LogShaderCompilers: Display: Shaders left to compile 220
+[2018.05.12-05.02.26:568][694]LogShaderCompilers: Display: Shaders left to compile 210
+[2018.05.12-05.02.27:395][697]LogShaderCompilers: Display: Shaders left to compile 200
+[2018.05.12-05.02.27:451][698]LogShaderCompilers: Display: Shaders left to compile 190
+[2018.05.12-05.02.28:808][699]LogShaderCompilers: Display: Shaders left to compile 180
+[2018.05.12-05.02.29:089][701]LogShaderCompilers: Display: Shaders left to compile 170
+[2018.05.12-05.02.29:937][703]LogShaderCompilers: Display: Shaders left to compile 160
+[2018.05.12-05.02.30:772][708]LogShaderCompilers: Display: Shaders left to compile 150
+[2018.05.12-05.02.31:421][710]LogShaderCompilers: Display: Shaders left to compile 140
+[2018.05.12-05.02.31:933][711]LogShaderCompilers: Display: Shaders left to compile 130
+[2018.05.12-05.02.32:842][713]LogShaderCompilers: Display: Shaders left to compile 120
+[2018.05.12-05.02.33:643][715]LogShaderCompilers: Display: Shaders left to compile 110
+[2018.05.12-05.02.33:725][717]LogShaderCompilers: Display: Shaders left to compile 100
+[2018.05.12-05.02.35:123][720]LogShaderCompilers: Display: Shaders left to compile 90
+[2018.05.12-05.02.35:220][723]LogShaderCompilers: Display: Shaders left to compile 80
+[2018.05.12-05.02.36:183][725]LogShaderCompilers: Display: Shaders left to compile 70
+[2018.05.12-05.02.36:579][727]LogShaderCompilers: Display: Shaders left to compile 60
+[2018.05.12-05.02.37:965][728]LogShaderCompilers: Display: Shaders left to compile 50
+[2018.05.12-05.02.37:988][729]LogShaderCompilers: Display: Shaders left to compile 40
+[2018.05.12-05.02.38:761][730]LogShaderCompilers: Display: Shaders left to compile 30
+[2018.05.12-05.02.39:603][732]LogShaderCompilers: Display: Shaders left to compile 20
+[2018.05.12-05.02.39:839][733]LogShaderCompilers: Display: Shaders left to compile 10
+[2018.05.12-05.02.48:725][115]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.057
+[2018.05.12-05.02.48:729][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/BOOK] ([1] browsable assets)...
+[2018.05.12-05.02.48:766][115]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/BOOK.BOOK]
+[2018.05.12-05.02.48:766][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/BOOK]
+[2018.05.12-05.02.48:767][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/BOOK" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/BOOK_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.48:793][115]LogSavePackage: Save=22.72ms
+[2018.05.12-05.02.48:793][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/BOOK_Auto34239BCB145E1BA53834E959BC391C94E.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/BOOK_Auto3.uasset'
+[2018.05.12-05.02.48:798][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/BOOK_Auto3.uasset
+[2018.05.12-05.02.48:800][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/book1] ([1] browsable assets)...
+[2018.05.12-05.02.48:818][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/book1.book1]
+[2018.05.12-05.02.48:818][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/book1]
+[2018.05.12-05.02.48:818][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/book1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/book1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.48:831][115]LogSavePackage: Save=10.62ms
+[2018.05.12-05.02.48:831][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/book1_Auto32F655869450DF0AD36BACB9419A9D56F.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/book1_Auto3.uasset'
+[2018.05.12-05.02.48:835][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/book1_Auto3.uasset
+[2018.05.12-05.02.48:837][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/gold] ([1] browsable assets)...
+[2018.05.12-05.02.48:852][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/gold.gold]
+[2018.05.12-05.02.48:852][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/gold]
+[2018.05.12-05.02.48:852][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/gold" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/gold_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.48:866][115]LogSavePackage: Save=11.13ms
+[2018.05.12-05.02.48:866][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/gold_Auto3091BFC8C44989477CACD18986B19DE94.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/gold_Auto3.uasset'
+[2018.05.12-05.02.48:870][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/gold_Auto3.uasset
+[2018.05.12-05.02.48:872][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/page] ([1] browsable assets)...
+[2018.05.12-05.02.48:888][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/page.page]
+[2018.05.12-05.02.48:888][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/page]
+[2018.05.12-05.02.48:888][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/page" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/page_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.48:922][115]LogSavePackage: Save=10.62ms
+[2018.05.12-05.02.48:922][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/page_Auto3635767914CB85075AD1C7F9FE46BD846.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/page_Auto3.uasset'
+[2018.05.12-05.02.48:924][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/page_Auto3.uasset
+[2018.05.12-05.02.48:926][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/black] ([1] browsable assets)...
+[2018.05.12-05.02.48:944][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/black.black]
+[2018.05.12-05.02.48:944][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/black]
+[2018.05.12-05.02.48:944][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/black" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/black_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.48:955][115]LogSavePackage: Save=8.48ms
+[2018.05.12-05.02.48:955][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/black_Auto36DEAE6FE49449DD45C7266B21DC46943.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/black_Auto3.uasset'
+[2018.05.12-05.02.48:958][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/black_Auto3.uasset
+[2018.05.12-05.02.48:960][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/CAB] ([1] browsable assets)...
+[2018.05.12-05.02.48:973][115]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/CAB.CAB]
+[2018.05.12-05.02.48:973][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/CAB]
+[2018.05.12-05.02.48:973][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/CAB" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/CAB_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.48:985][115]LogSavePackage: Save=8.93ms
+[2018.05.12-05.02.48:985][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/CAB_Auto3F014F2304FCE2AA2C4BB74A8040E5320.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/CAB_Auto3.uasset'
+[2018.05.12-05.02.48:987][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/CAB_Auto3.uasset
+[2018.05.12-05.02.48:989][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/wood] ([1] browsable assets)...
+[2018.05.12-05.02.49:004][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/wood.wood]
+[2018.05.12-05.02.49:004][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/wood]
+[2018.05.12-05.02.49:004][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/wood" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/wood_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:016][115]LogSavePackage: Save=10.37ms
+[2018.05.12-05.02.49:016][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/wood_Auto3495725B44D8C38A104B456A1060D2B1C.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/wood_Auto3.uasset'
+[2018.05.12-05.02.49:019][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/wood_Auto3.uasset
+[2018.05.12-05.02.49:021][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/desk] ([1] browsable assets)...
+[2018.05.12-05.02.49:035][115]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/desk.desk]
+[2018.05.12-05.02.49:035][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/desk]
+[2018.05.12-05.02.49:035][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/desk" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/desk_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:047][115]LogSavePackage: Save=9.45ms
+[2018.05.12-05.02.49:047][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/desk_Auto373178C584FDC10067867BCAF1A36DA67.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/desk_Auto3.uasset'
+[2018.05.12-05.02.49:050][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/desk_Auto3.uasset
+[2018.05.12-05.02.49:052][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/desk1] ([1] browsable assets)...
+[2018.05.12-05.02.49:066][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/desk1.desk1]
+[2018.05.12-05.02.49:066][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/desk1]
+[2018.05.12-05.02.49:066][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/desk1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/desk1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:078][115]LogSavePackage: Save=8.94ms
+[2018.05.12-05.02.49:078][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/desk1_Auto3DF6E4C13456CADDF104F70BA71B68504.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/desk1_Auto3.uasset'
+[2018.05.12-05.02.49:082][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/desk1_Auto3.uasset
+[2018.05.12-05.02.49:083][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/Paper] ([1] browsable assets)...
+[2018.05.12-05.02.49:100][115]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/Paper.Paper]
+[2018.05.12-05.02.49:100][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/Paper]
+[2018.05.12-05.02.49:100][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/Paper" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/Paper_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:112][115]LogSavePackage: Save=10.12ms
+[2018.05.12-05.02.49:112][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Paper_Auto34BC2E43C486E79092D62828BB53A2780.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/Paper_Auto3.uasset'
+[2018.05.12-05.02.49:115][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/Paper_Auto3.uasset
+[2018.05.12-05.02.49:117][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/PAPER1] ([1] browsable assets)...
+[2018.05.12-05.02.49:135][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/PAPER1.PAPER1]
+[2018.05.12-05.02.49:135][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/PAPER1]
+[2018.05.12-05.02.49:136][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/PAPER1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/PAPER1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:148][115]LogSavePackage: Save=10.03ms
+[2018.05.12-05.02.49:149][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/PAPER1_Auto3C0307A6E49F6F23D7B454F9F47B3F22F.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/PAPER1_Auto3.uasset'
+[2018.05.12-05.02.49:151][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/PAPER1_Auto3.uasset
+[2018.05.12-05.02.49:153][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/INK] ([1] browsable assets)...
+[2018.05.12-05.02.49:169][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/INK.INK]
+[2018.05.12-05.02.49:170][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/INK]
+[2018.05.12-05.02.49:170][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/INK" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/INK_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:182][115]LogSavePackage: Save=10.36ms
+[2018.05.12-05.02.49:182][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/INK_Auto3941321F44415F2F47D548BADF89E88A7.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/INK_Auto3.uasset'
+[2018.05.12-05.02.49:185][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/INK_Auto3.uasset
+[2018.05.12-05.02.49:187][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/pensil] ([1] browsable assets)...
+[2018.05.12-05.02.49:211][115]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/pensil.pensil]
+[2018.05.12-05.02.49:211][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/pensil]
+[2018.05.12-05.02.49:211][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/pensil" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/pensil_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:225][115]LogSavePackage: Save=11.55ms
+[2018.05.12-05.02.49:225][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/pensil_Auto376A16C6A4BFA158B3946C5AE845DF973.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/pensil_Auto3.uasset'
+[2018.05.12-05.02.49:228][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/pensil_Auto3.uasset
+[2018.05.12-05.02.49:230][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/metal_green] ([1] browsable assets)...
+[2018.05.12-05.02.49:245][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/metal_green.metal_green]
+[2018.05.12-05.02.49:245][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/metal_green]
+[2018.05.12-05.02.49:258][115]LogSavePackage: Save=10.83ms
+[2018.05.12-05.02.49:258][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/metal_green_Auto3D53EFB824D971B485ECA7488686096CF.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/metal_green_Auto3.uasset'
+[2018.05.12-05.02.49:261][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/metal_green_Auto3.uasset
+[2018.05.12-05.02.49:263][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/pensal_yellow] ([1] browsable assets)...
+[2018.05.12-05.02.49:280][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/pensal_yellow.pensal_yellow]
+[2018.05.12-05.02.49:280][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/pensal_yellow]
+[2018.05.12-05.02.49:293][115]LogSavePackage: Save=11.04ms
+[2018.05.12-05.02.49:293][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/pensal_yellow_Auto3BE63B7D6493E5A55992849A67C2EDB9B.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/pensal_yellow_Auto3.uasset'
+[2018.05.12-05.02.49:296][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/pensal_yellow_Auto3.uasset
+[2018.05.12-05.02.49:298][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/E] ([1] browsable assets)...
+[2018.05.12-05.02.49:314][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/E.E]
+[2018.05.12-05.02.49:314][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/E]
+[2018.05.12-05.02.49:314][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/E" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/E_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:328][115]LogSavePackage: Save=11.42ms
+[2018.05.12-05.02.49:328][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/E_Auto3230B161647DC41BC6DE041BF0F10B95F.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/E_Auto3.uasset'
+[2018.05.12-05.02.49:331][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/E_Auto3.uasset
+[2018.05.12-05.02.49:333][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/PENSIL_WOOD] ([1] browsable assets)...
+[2018.05.12-05.02.49:350][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD]
+[2018.05.12-05.02.49:351][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/PENSIL_WOOD]
+[2018.05.12-05.02.49:364][115]LogSavePackage: Save=10.00ms
+[2018.05.12-05.02.49:364][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/PENSIL_WOOD_Auto3ABAE95A74184D9802E2422B9AFBF7EC9.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/PENSIL_WOOD_Auto3.uasset'
+[2018.05.12-05.02.49:367][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/PENSIL_WOOD_Auto3.uasset
+[2018.05.12-05.02.49:369][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/BLACK1] ([1] browsable assets)...
+[2018.05.12-05.02.49:383][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/BLACK1.BLACK1]
+[2018.05.12-05.02.49:383][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/BLACK1]
+[2018.05.12-05.02.49:383][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/BLACK1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/BLACK1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:394][115]LogSavePackage: Save=8.86ms
+[2018.05.12-05.02.49:394][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/BLACK1_Auto397F34AD7447FE5246C768E95222C577C.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/BLACK1_Auto3.uasset'
+[2018.05.12-05.02.49:405][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/BLACK1_Auto3.uasset
+[2018.05.12-05.02.49:407][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/shelf] ([1] browsable assets)...
+[2018.05.12-05.02.49:422][115]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/shelf.shelf]
+[2018.05.12-05.02.49:422][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/shelf]
+[2018.05.12-05.02.49:422][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/shelf" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/shelf_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:435][115]LogSavePackage: Save=10.35ms
+[2018.05.12-05.02.49:435][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/shelf_Auto361E820C04C9ECB579A42AEB1418805BF.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/shelf_Auto3.uasset'
+[2018.05.12-05.02.49:441][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/shelf_Auto3.uasset
+[2018.05.12-05.02.49:443][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/shelf1] ([1] browsable assets)...
+[2018.05.12-05.02.49:460][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/shelf1.shelf1]
+[2018.05.12-05.02.49:460][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/shelf1]
+[2018.05.12-05.02.49:460][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/shelf1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/shelf1_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:472][115]LogSavePackage: Save=9.81ms
+[2018.05.12-05.02.49:472][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/shelf1_Auto372F99864428FC6AE0CB20499BF4B2A39.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/shelf1_Auto3.uasset'
+[2018.05.12-05.02.49:475][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/shelf1_Auto3.uasset
+[2018.05.12-05.02.49:477][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/vase] ([1] browsable assets)...
+[2018.05.12-05.02.49:494][115]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/vase.vase]
+[2018.05.12-05.02.49:494][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/vase]
+[2018.05.12-05.02.49:494][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/vase" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/vase_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:508][115]LogSavePackage: Save=11.60ms
+[2018.05.12-05.02.49:508][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/vase_Auto30324000E48CB5713142EEF9868E8C0A9.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/vase_Auto3.uasset'
+[2018.05.12-05.02.49:511][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/vase_Auto3.uasset
+[2018.05.12-05.02.49:513][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/pot] ([1] browsable assets)...
+[2018.05.12-05.02.49:529][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/pot.pot]
+[2018.05.12-05.02.49:529][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/pot]
+[2018.05.12-05.02.49:530][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/pot" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/pot_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:543][115]LogSavePackage: Save=11.11ms
+[2018.05.12-05.02.49:543][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/pot_Auto35A4409614E595AB00BF56B9B9358CFA2.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/pot_Auto3.uasset'
+[2018.05.12-05.02.49:546][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/pot_Auto3.uasset
+[2018.05.12-05.02.49:548][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/stem] ([1] browsable assets)...
+[2018.05.12-05.02.49:566][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/stem.stem]
+[2018.05.12-05.02.49:566][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/stem]
+[2018.05.12-05.02.49:567][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/stem" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/stem_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:581][115]LogSavePackage: Save=10.74ms
+[2018.05.12-05.02.49:581][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem_Auto3B701FB6842C97E7D33163C97E87E57EA.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/stem_Auto3.uasset'
+[2018.05.12-05.02.49:584][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/stem_Auto3.uasset
+[2018.05.12-05.02.49:586][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/core] ([1] browsable assets)...
+[2018.05.12-05.02.49:602][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/core.core]
+[2018.05.12-05.02.49:602][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/core]
+[2018.05.12-05.02.49:603][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/core" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/core_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:617][115]LogSavePackage: Save=11.13ms
+[2018.05.12-05.02.49:617][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/core_Auto3E9006AEE4574BBD758B9638F51362088.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/core_Auto3.uasset'
+[2018.05.12-05.02.49:620][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/core_Auto3.uasset
+[2018.05.12-05.02.49:622][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/flower] ([1] browsable assets)...
+[2018.05.12-05.02.49:640][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/flower.flower]
+[2018.05.12-05.02.49:640][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/flower]
+[2018.05.12-05.02.49:640][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/flower" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/flower_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:653][115]LogSavePackage: Save=11.30ms
+[2018.05.12-05.02.49:654][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/flower_Auto3925A9A964E7616B6ABB3DD9A2C9007BD.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/flower_Auto3.uasset'
+[2018.05.12-05.02.49:657][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/flower_Auto3.uasset
+[2018.05.12-05.02.49:659][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/stem_001] ([1] browsable assets)...
+[2018.05.12-05.02.49:676][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/stem_001.stem_001]
+[2018.05.12-05.02.49:676][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/stem_001]
+[2018.05.12-05.02.49:676][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/stem_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/stem_001_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:689][115]LogSavePackage: Save=11.20ms
+[2018.05.12-05.02.49:689][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem_001_Auto32ADEC76F4B334F8449CE7194D975F4A0.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/stem_001_Auto3.uasset'
+[2018.05.12-05.02.49:692][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/stem_001_Auto3.uasset
+[2018.05.12-05.02.49:694][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/core_001] ([1] browsable assets)...
+[2018.05.12-05.02.49:710][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/core_001.core_001]
+[2018.05.12-05.02.49:710][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/core_001]
+[2018.05.12-05.02.49:710][115]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/core_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/core_001_Auto3.uasset" SILENT=false AUTOSAVING=true
+[2018.05.12-05.02.49:723][115]LogSavePackage: Save=10.68ms
+[2018.05.12-05.02.49:723][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/core_001_Auto3A24CBE79421BDE8878AB24A96D4C7EEE.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/core_001_Auto3.uasset'
+[2018.05.12-05.02.49:726][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/core_001_Auto3.uasset
+[2018.05.12-05.02.49:727][115]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/flower_001] ([1] browsable assets)...
+[2018.05.12-05.02.49:743][115]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/flower_001.flower_001]
+[2018.05.12-05.02.49:743][115]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/flower_001]
+[2018.05.12-05.02.49:756][115]LogSavePackage: Save=10.40ms
+[2018.05.12-05.02.49:756][115]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/flower_001_Auto36A2A29404E4E925B4399CAB795550274.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/flower_001_Auto3.uasset'
+[2018.05.12-05.02.49:760][115]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/flower_001_Auto3.uasset
+[2018.05.12-05.02.49:760][115]LogFileHelpers: Auto-saving content packages took 1.034
+[2018.05.12-05.03.21:494][960]LogSlate: Window 'Message Log' being destroyed
+[2018.05.12-05.03.21:507][960]LogSlate: Window 'Message Log' being destroyed
+[2018.05.12-05.04.06:469][147]LogAssetTools: Exporting "/Game/OFFICE/wood.wood" to "Game/OFFICE/wood.T3D"
+[2018.05.12-05.04.06:499][147]LogAssetTools: Exporting "/Game/OFFICE/stem_001.stem_001" to "Game/OFFICE/stem_001.T3D"
+[2018.05.12-05.04.06:510][147]LogAssetTools: Exporting "/Game/OFFICE/stem.stem" to "Game/OFFICE/stem.T3D"
+[2018.05.12-05.04.06:519][147]LogAssetTools: Exporting "/Game/OFFICE/shelf1.shelf1" to "Game/OFFICE/shelf1.T3D"
+[2018.05.12-05.04.06:530][147]LogAssetTools: Exporting "/Game/OFFICE/pot.pot" to "Game/OFFICE/pot.T3D"
+[2018.05.12-05.04.06:539][147]LogAssetTools: Exporting "/Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD" to "Game/OFFICE/PENSIL_WOOD.T3D"
+[2018.05.12-05.04.06:550][147]LogAssetTools: Exporting "/Game/OFFICE/black.black" to "Game/OFFICE/black.T3D"
+[2018.05.12-05.04.06:560][147]LogAssetTools: Exporting "/Game/OFFICE/BLACK1.BLACK1" to "Game/OFFICE/BLACK1.T3D"
+[2018.05.12-05.04.06:569][147]LogAssetTools: Exporting "/Game/OFFICE/book1.book1" to "Game/OFFICE/book1.T3D"
+[2018.05.12-05.04.06:578][147]LogAssetTools: Exporting "/Game/OFFICE/core.core" to "Game/OFFICE/core.T3D"
+[2018.05.12-05.04.06:587][147]LogAssetTools: Exporting "/Game/OFFICE/core_001.core_001" to "Game/OFFICE/core_001.T3D"
+[2018.05.12-05.04.06:597][147]LogAssetTools: Exporting "/Game/OFFICE/desk1.desk1" to "Game/OFFICE/desk1.T3D"
+[2018.05.12-05.04.06:605][147]LogAssetTools: Exporting "/Game/OFFICE/E.E" to "Game/OFFICE/E.T3D"
+[2018.05.12-05.04.06:615][147]LogAssetTools: Exporting "/Game/OFFICE/flower.flower" to "Game/OFFICE/flower.T3D"
+[2018.05.12-05.04.06:624][147]LogAssetTools: Exporting "/Game/OFFICE/flower_001.flower_001" to "Game/OFFICE/flower_001.T3D"
+[2018.05.12-05.04.06:633][147]LogAssetTools: Exporting "/Game/OFFICE/gold.gold" to "Game/OFFICE/gold.T3D"
+[2018.05.12-05.04.06:643][147]LogAssetTools: Exporting "/Game/OFFICE/INK.INK" to "Game/OFFICE/INK.T3D"
+[2018.05.12-05.04.06:651][147]LogAssetTools: Exporting "/Game/OFFICE/metal_green.metal_green" to "Game/OFFICE/metal_green.T3D"
+[2018.05.12-05.04.06:661][147]LogAssetTools: Exporting "/Game/OFFICE/page.page" to "Game/OFFICE/page.T3D"
+[2018.05.12-05.04.06:671][147]LogAssetTools: Exporting "/Game/OFFICE/PAPER1.PAPER1" to "Game/OFFICE/PAPER1.T3D"
+[2018.05.12-05.04.06:681][147]LogAssetTools: Exporting "/Game/OFFICE/pensal_yellow.pensal_yellow" to "Game/OFFICE/pensal_yellow.T3D"
+[2018.05.12-05.04.56:596][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/PAPER1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/PAPER1.uasset" SILENT=true
+[2018.05.12-05.04.56:610][873]LogSavePackage: Save=11.00ms
+[2018.05.12-05.04.56:610][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/PAPER1FEC60DF5499D4ED3300773B6CEBE06F6.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/PAPER1.uasset'
+[2018.05.12-05.04.56:617][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/PAPER1.uasset
+[2018.05.12-05.04.56:638][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/page" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/page.uasset" SILENT=true
+[2018.05.12-05.04.56:674][873]LogSavePackage: Save=10.87ms
+[2018.05.12-05.04.56:674][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/page81EBADA047F5B7E7E9623CBA038C42A8.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/page.uasset'
+[2018.05.12-05.04.56:681][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/page.uasset
+[2018.05.12-05.04.56:703][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/metal_green" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/metal_green.uasset" SILENT=true
+[2018.05.12-05.04.56:716][873]LogSavePackage: Save=10.43ms
+[2018.05.12-05.04.56:716][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/metal_greenDE518CB64B06699883A2518DED2D48CD.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/metal_green.uasset'
+[2018.05.12-05.04.56:723][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/metal_green.uasset
+[2018.05.12-05.04.56:746][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/INK" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/INK.uasset" SILENT=true
+[2018.05.12-05.04.56:759][873]LogSavePackage: Save=9.90ms
+[2018.05.12-05.04.56:759][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/INK98440C214F49371413D5E1A25E8CC97B.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/INK.uasset'
+[2018.05.12-05.04.56:766][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/INK.uasset
+[2018.05.12-05.04.56:786][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/gold" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/gold.uasset" SILENT=true
+[2018.05.12-05.04.56:801][873]LogSavePackage: Save=11.19ms
+[2018.05.12-05.04.56:801][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/gold0CE53C3F41D736203676EC91853F990F.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/gold.uasset'
+[2018.05.12-05.04.56:808][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/gold.uasset
+[2018.05.12-05.04.56:833][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/flower_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/flower_001.uasset" SILENT=true
+[2018.05.12-05.04.56:846][873]LogSavePackage: Save=10.62ms
+[2018.05.12-05.04.56:846][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/flower_001343D08E44B4E30083D5A8D9164ACE642.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/flower_001.uasset'
+[2018.05.12-05.04.56:853][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/flower_001.uasset
+[2018.05.12-05.04.56:873][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/flower" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/flower.uasset" SILENT=true
+[2018.05.12-05.04.56:886][873]LogSavePackage: Save=11.15ms
+[2018.05.12-05.04.56:886][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/flower131199CF4E8A0DA848A771B6DAFF1159.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/flower.uasset'
+[2018.05.12-05.04.56:893][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/flower.uasset
+[2018.05.12-05.04.56:913][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/E" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/E.uasset" SILENT=true
+[2018.05.12-05.04.56:926][873]LogSavePackage: Save=11.11ms
+[2018.05.12-05.04.56:926][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/E6490FD744249E6621A1C8B84EE428516.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/E.uasset'
+[2018.05.12-05.04.56:935][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/E.uasset
+[2018.05.12-05.04.56:953][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/desk1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/desk1.uasset" SILENT=true
+[2018.05.12-05.04.56:965][873]LogSavePackage: Save=9.35ms
+[2018.05.12-05.04.56:965][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/desk1EBFD2DCA4C00B48C45D051994C3A30C8.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/desk1.uasset'
+[2018.05.12-05.04.56:972][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/desk1.uasset
+[2018.05.12-05.04.56:992][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/core_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/core_001.uasset" SILENT=true
+[2018.05.12-05.04.57:006][873]LogSavePackage: Save=11.27ms
+[2018.05.12-05.04.57:006][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/core_0015648705B450D85CA4DBA31A4F7F1FF5B.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/core_001.uasset'
+[2018.05.12-05.04.57:012][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/core_001.uasset
+[2018.05.12-05.04.57:032][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/core" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/core.uasset" SILENT=true
+[2018.05.12-05.04.57:045][873]LogSavePackage: Save=10.58ms
+[2018.05.12-05.04.57:045][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/core1FCF540448BEF0C58C6CD3B251F15A00.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/core.uasset'
+[2018.05.12-05.04.57:052][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/core.uasset
+[2018.05.12-05.04.57:076][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/book1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/book1.uasset" SILENT=true
+[2018.05.12-05.04.57:090][873]LogSavePackage: Save=10.65ms
+[2018.05.12-05.04.57:090][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/book114D3A0984B3822C282FC03B2379489ED.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/book1.uasset'
+[2018.05.12-05.04.57:097][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/book1.uasset
+[2018.05.12-05.04.57:121][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/BLACK1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/BLACK1.uasset" SILENT=true
+[2018.05.12-05.04.57:131][873]LogSavePackage: Save=8.35ms
+[2018.05.12-05.04.57:131][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/BLACK1F11DB72A4566F2977BF5408C43699B45.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/BLACK1.uasset'
+[2018.05.12-05.04.57:137][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/BLACK1.uasset
+[2018.05.12-05.04.57:158][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/black" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/black.uasset" SILENT=true
+[2018.05.12-05.04.57:169][873]LogSavePackage: Save=8.98ms
+[2018.05.12-05.04.57:169][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/black948A59B44543EBD98317BDBC8EA69479.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/black.uasset'
+[2018.05.12-05.04.57:176][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/black.uasset
+[2018.05.12-05.04.57:200][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/pensal_yellow" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/pensal_yellow.uasset" SILENT=true
+[2018.05.12-05.04.57:214][873]LogSavePackage: Save=10.50ms
+[2018.05.12-05.04.57:214][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/pensal_yellowE8A8CDF04E446AEFCF48C18223687661.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/pensal_yellow.uasset'
+[2018.05.12-05.04.57:221][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/pensal_yellow.uasset
+[2018.05.12-05.04.57:245][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/PENSIL_WOOD" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/PENSIL_WOOD.uasset" SILENT=true
+[2018.05.12-05.04.57:259][873]LogSavePackage: Save=10.70ms
+[2018.05.12-05.04.57:259][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/PENSIL_WOODB9002AD34F8372D8B88639A6F463CF2A.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/PENSIL_WOOD.uasset'
+[2018.05.12-05.04.57:265][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/PENSIL_WOOD.uasset
+[2018.05.12-05.04.57:287][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/pot" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/pot.uasset" SILENT=true
+[2018.05.12-05.04.57:300][873]LogSavePackage: Save=10.36ms
+[2018.05.12-05.04.57:300][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/pot45EBB3B042919F8B2EDC63A48A8AF92C.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/pot.uasset'
+[2018.05.12-05.04.57:307][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/pot.uasset
+[2018.05.12-05.04.57:329][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/shelf1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/shelf1.uasset" SILENT=true
+[2018.05.12-05.04.57:343][873]LogSavePackage: Save=10.94ms
+[2018.05.12-05.04.57:343][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/shelf19C9D69334A5CE4EA225C659A130DD5A1.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/shelf1.uasset'
+[2018.05.12-05.04.57:349][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/shelf1.uasset
+[2018.05.12-05.04.57:374][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/stem" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/stem.uasset" SILENT=true
+[2018.05.12-05.04.57:401][873]LogSavePackage: Save=11.22ms
+[2018.05.12-05.04.57:401][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stemEC7B99D643AE0B275DC385A91DABC0E8.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/stem.uasset'
+[2018.05.12-05.04.57:408][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/stem.uasset
+[2018.05.12-05.04.57:431][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/stem_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/stem_001.uasset" SILENT=true
+[2018.05.12-05.04.57:448][873]LogSavePackage: Save=14.06ms
+[2018.05.12-05.04.57:448][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem_001F2354F154C7B283552BAD59EFA7F1261.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/stem_001.uasset'
+[2018.05.12-05.04.57:454][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/stem_001.uasset
+[2018.05.12-05.04.57:472][873]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/UBMA/wood" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/wood.uasset" SILENT=true
+[2018.05.12-05.04.57:486][873]LogSavePackage: Save=11.36ms
+[2018.05.12-05.04.57:486][873]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/wood606600984EB666257A88F49DEFC97471.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/wood.uasset'
+[2018.05.12-05.04.57:494][873]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/UBMA/wood.uasset
+[2018.05.12-05.05.00:733][943]LogActorFactory: Actor Factory created desk
+[2018.05.12-05.05.02:232][ 56]LogActorFactory: Actor Factory created desk
+[2018.05.12-05.05.12:256][668]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-05.05.34:697][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-05.05.34:854][101]LogActorFactory: Actor Factory created CAB
+[2018.05.12-05.05.37:231][255]LogActorFactory: Actor Factory created CAB
+[2018.05.12-05.06.05:252][137]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2018.05.12-05.06.13:401][527]LogEditorViewport: Clicking on Actor (CTRL LMB): PlayerStart (NetworkPlayerStart)
+[2018.05.12-05.06.14:178][566]LogEditorViewport: Clicking on Actor (CTRL LMB): DirectionalLight (DirectionalLight)
+[2018.05.12-05.06.15:066][612]LogEditorViewport: Clicking on Actor (CTRL LMB): ExponentialHeightFog (ExponentialHeightFog)
+[2018.05.12-05.06.16:273][666]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.12-05.06.21:744][931]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.12-05.06.25:888][135]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.05.12-05.06.27:613][212]Cmd: SELECT NONE
+[2018.05.12-05.06.33:467][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-05.06.33:653][641]LogActorFactory: Actor Factory created shelf
+[2018.05.12-05.06.35:741][797]LogActorFactory: Actor Factory created shelf
+[2018.05.12-05.06.43:280][114]LogD3D11RHI: Timed out while waiting for GPU to catch up. (0.5 s)
+[2018.05.12-05.06.43:706][114]LogD3D11RHI: Error: Result failed 
+ at D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Runtime\Windows\D3D11RHI\Private\D3D11Viewport.cpp:303 
+ with error DXGI_ERROR_DEVICE_REMOVED DXGI_ERROR_DEVICE_HUNG
+[2018.05.12-05.06.43:837][114]LogWindows: Windows GetLastError: The operation completed successfully. (0)
