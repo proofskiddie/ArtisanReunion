@@ -704,3 +704,7 @@ LogInit: Object subsystem initialized
 [2018.05.11-22.49.30:244][520]LogSavePackage: Save=436.64ms
 [2018.05.11-22.49.30:244][520]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/SideScrollerExampleMap_BuiltDataABC7F6CC45287F22D501C89818C23207.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
 [2018.05.11-22.49.30:248][520]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2018.05.11-22.52.34:792][421]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{eedc40dc-497d-411e-afad-85ace8ad8faf} was removed. Shutting down audio device.
+[2018.05.11-22.52.34:792][421]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.12-01.19.03:933][591]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.12-01.20.50:576][925]LogInit: XAudio2 using 'Speakers (C-Media USB Audio Device   )' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
