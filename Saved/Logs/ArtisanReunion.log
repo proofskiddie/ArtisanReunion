@@ -396,3 +396,18 @@ LogInit: Object subsystem initialized
 [2018.05.12-01.30.38:548][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
 [2018.05.12-01.30.38:548][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000122 seconds (updated 0 objects)
 [2018.05.12-01.30.38:826][  3]LogSlate: Took 0.000525 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.12-01.38.10:634][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-01.38.11:084][340]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 116 classes and 0 folders.
+[2018.05.12-01.38.11:454][340]LogUObjectGlobals: Created PersistentFrame Addr=0x000002004a25d010, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.12-01.38.11:454][340]LogUObjectGlobals: Created PersistentFrame Addr=0x000002004a25d008, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
+[2018.05.12-01.38.11:896][340]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.12-01.38.12:012][341]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.12-01.38.13:832][457]LogSlate: Window 'SideScrollerCharacter' being destroyed
+[2018.05.12-01.38.14:636][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.12-01.38.34:522][797]LogRenderer: Reallocating scene render targets to support 660x388 Format 9 NumSamples 1 (Frame:252).
+[2018.05.12-01.38.34:599][798]LogRenderer: Reallocating scene render targets to support 664x388 Format 9 NumSamples 1 (Frame:254).
+[2018.05.12-01.38.34:659][799]LogRenderer: Reallocating scene render targets to support 684x388 Format 9 NumSamples 1 (Frame:256).
+[2018.05.12-01.38.34:717][800]LogRenderer: Reallocating scene render targets to support 692x388 Format 9 NumSamples 1 (Frame:258).
+[2018.05.12-01.38.34:767][801]LogRenderer: Reallocating scene render targets to support 700x388 Format 9 NumSamples 1 (Frame:260).
+[2018.05.12-01.38.34:814][802]LogRenderer: Reallocating scene render targets to support 704x388 Format 9 NumSamples 1 (Frame:262).
+[2018.05.12-01.41.41:744][937]LogSlate: FSceneViewport::OnFocusLost() reason 2
