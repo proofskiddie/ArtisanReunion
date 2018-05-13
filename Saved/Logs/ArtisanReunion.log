@@ -531,3 +531,11 @@ LogInit: Object subsystem initialized
 [2018.05.13-23.37.54:168][919]LogSavePackage: Save=2280.76ms
 [2018.05.13-23.37.54:168][919]LogSavePackage: Moving 'D:/Documents/GitHub/ArtisanReunion/Saved/SideScrollerExampleMap_BuiltData2C6EDE2545F212A5546E39B8FB92968C.tmp' to 'D:/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset'
 [2018.05.13-23.37.54:183][919]LogSavePackage: Display: Finished SavePackage D:/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.uasset
+[2018.05.13-23.38.13:528][193]LogSlate: Window 'ArtisanReunion - Unreal Editor' being destroyed
+[2018.05.13-23.38.13:531][193]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.13-23.38.14:165][194]Cmd: QUIT_EDITOR
+[2018.05.13-23.38.14:244][194]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.05.13-23.38.14:244][194]LogExit: Preparing to exit.
+[2018.05.13-23.38.15:468][194]LogExit: Editor shut down
+[2018.05.13-23.38.15:493][194]LogExit: Transaction tracking system shut down
+[2018.05.13-23.38.15:495][194]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000013b7b388200, Size=464
