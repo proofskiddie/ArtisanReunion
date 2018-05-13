@@ -1,4 +1,4 @@
-﻿Log file open, 05/13/18 01:08:18
+﻿Log file open, 05/13/18 01:27:53
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,12 +7,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: ArtisanReunion
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1808697949) SRandInit(-1808697949).
+LogInit: Display: RandInit(1632237312) SRandInit(1632237312).
 LogInit: Read version file with build ID '3944462'
 LogInit: Overriding engine version to CL 4033788, compatible CL 3944462
 LogInit: Registered custom module enumerator with build ID '3944462'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.186305
+LogStats: Stats thread started at 0.228969
 LogD3D11RHI: Aftermath initialized
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3944462).
@@ -168,7 +168,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  1.557s to configure plugins.
+LogStreaming: Display: Took  1.365s to configure plugins.
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -222,525 +222,878 @@ LogInit: Installed Engine Build: 1
 LogStreaming: Display: Took  0.003s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.13-05.08.20:825][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.13-05.08.20:825][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.13-05.08.20:836][  0]LogInit: Computer: DESKTOP-LPQT5LQ
-[2018.05.13-05.08.20:836][  0]LogInit: User: Jeremy
-[2018.05.13-05.08.20:836][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.13-05.08.20:836][  0]LogInit: High frequency timer resolution =2.929690 MHz
-[2018.05.13-05.08.20:837][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.05.13-05.08.20:837][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.13-05.08.20:837][  0]LogMemory: Process Physical Memory: 276.21 MB used, 276.21 MB peak
-[2018.05.13-05.08.20:837][  0]LogMemory: Process Virtual Memory: 266.27 MB used, 266.27 MB peak
-[2018.05.13-05.08.20:837][  0]LogMemory: Physical Memory: 4927.53 MB used,  3160.39 MB free, 8087.92 MB total
-[2018.05.13-05.08.20:837][  0]LogMemory: Virtual Memory: 674.51 MB used,  3160.39 MB free, 134217728.00 MB total
-[2018.05.13-05.08.20:860][  0]LogInit: Using OS detected language (en-US).
-[2018.05.13-05.08.20:860][  0]LogInit: Using OS detected locale (en-US).
-[2018.05.13-05.08.20:864][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.13-05.08.21:330][  0]LogStreaming: Display: Took  0.470s to EndInitTextLocalization.
-[2018.05.13-05.08.21:331][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.13-05.08.21:371][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.05.13-05.08.21:371][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.05.13-05.08.21:625][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.13-05.08.21:636][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.05.13-05.08.21:636][  0]LogD3D11RHI:       128/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
-[2018.05.13-05.08.21:639][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.13-05.08.21:639][  0]LogD3D11RHI:       0/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.13-05.08.21:639][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.13-05.08.21:646][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.13-05.08.21:646][  0]LogD3D11RHI:     GPU DeviceId: 0x5912 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.13-05.08.21:646][  0]LogWindows: EnumDisplayDevices:
-[2018.05.13-05.08.21:646][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.05.13-05.08.21:646][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
-[2018.05.13-05.08.21:646][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.13-05.08.21:646][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.13-05.08.21:646][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
-[2018.05.13-05.08.21:646][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.13-05.08.21:646][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.13-05.08.21:646][  0]LogRHI: Texture pool is 1504 MB (70% of 2149 MB)
-[2018.05.13-05.08.21:654][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.13-05.08.21:660][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2018.05.13-05.08.21:661][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Intermediate/Shaders/WorkingDirectory/4600/).
-[2018.05.13-05.08.21:661][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jeremy/AppData/Local/Temp/UnrealShaderWorkingDir/F3C18D374856709455878791326E9201/'.
-[2018.05.13-05.08.21:977][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.13-05.08.21:991][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.13-05.08.22:008][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.13-05.08.22:023][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.13-05.08.22:039][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.13-05.08.22:055][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.13-05.08.22:070][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.13-05.08.22:088][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.13-05.08.22:098][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.13-05.08.22:111][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.13-05.08.22:126][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.13-05.08.22:140][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.13-05.08.22:153][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
-[2018.05.13-05.08.22:168][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.13-05.08.22:183][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.13-05.08.22:212][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.13-05.08.22:212][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.13-05.08.22:226][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.13-05.08.22:227][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.13-05.08.22:266][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.13-05.08.22:279][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.13-05.08.22:292][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.13-05.08.22:305][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.13-05.08.22:319][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.13-05.08.22:331][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.13-05.08.22:331][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.13-05.08.22:486][  0]LogXGEController: Cleaning working directory: C:/Users/Jeremy/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2018.05.13-05.08.22:486][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.05.13-05.08.22:486][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.05.13-05.08.22:486][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.13-05.08.23:266][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.13-05.08.23:350][  0]LogDerivedDataCache: Loaded boot cache 0.08s 74MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.13-05.08.23:351][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
-[2018.05.13-05.08.23:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.13-05.08.23:351][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.13-05.08.23:351][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.13-05.08.23:351][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.13-05.08.23:367][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.13-05.08.23:380][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.13-05.08.23:380][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.05.13-05.08.23:380][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.05.13-05.08.23:393][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.13-05.08.23:393][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.13-05.08.23:394][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.13-05.08.23:394][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.13-05.08.23:559][  0]LogAssetRegistry: FAssetRegistry took 0.0284 seconds to start up
-[2018.05.13-05.08.23:897][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.13-05.08.23:982][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.13-05.08.23:986][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.13-05.08.23:986][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.13-05.08.23:986][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.13-05.08.23:986][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.13-05.08.23:986][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.13-05.08.24:110][  0]LogNetVersion: ArtisanReunion , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2763199368)
-[2018.05.13-05.08.24:743][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.122531 seconds
-[2018.05.13-05.08.24:751][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
-[2018.05.13-05.08.24:751][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
-[2018.05.13-05.08.24:751][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.13-05.08.26:865][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.13-05.08.26:905][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.13-05.08.27:413][  0]SourceControl: Source control is disabled
-[2018.05.13-05.08.27:413][  0]SourceControl: Source control is disabled
-[2018.05.13-05.08.27:443][  0]SourceControl: Source control is disabled
-[2018.05.13-05.08.27:471][  0]SourceControl: Source control is disabled
-[2018.05.13-05.08.28:214][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.13-05.08.28:502][  0]LogOcInput: OculusInput pre-init called
-[2018.05.13-05.08.28:661][  0]LogEngine: Initializing Engine...
-[2018.05.13-05.08.28:663][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.13-05.08.28:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.13-05.08.28:664][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.13-05.08.28:946][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.13-05.08.28:989][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.13-05.08.29:000][  0]LogInit: FAudioDevice initialized.
-[2018.05.13-05.08.29:164][  0]LogDerivedDataCache: Saved boot cache 0.16s 74MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
-[2018.05.13-05.08.29:174][  0]LogInit: Texture streaming: Enabled
-[2018.05.13-05.08.29:201][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.13-05.08.29:221][  0]LogInit: Transaction tracking system initialized
-[2018.05.13-05.08.29:256][  0]BlueprintLog: New page: Editor Load
-[2018.05.13-05.08.29:379][  0]LocalizationService: Localization service is disabled
-[2018.05.13-05.08.29:846][  0]LogConsoleResponse: Display: 
-[2018.05.13-05.08.30:012][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ as it will conflict with another watching ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/.
-[2018.05.13-05.08.30:024][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.13-05.08.30:024][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.13-05.08.30:024][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.13-05.08.30:024][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.13-05.08.30:025][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.13-05.08.30:556][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/' took 0.05s
-[2018.05.13-05.08.30:556][  0]SourceControl: Source control is disabled
-[2018.05.13-05.08.30:557][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.13-05.08.30:557][  0]LightingResults: New page: Lighting Build
-[2018.05.13-05.08.30:560][  0]MapCheck: New page: Map Check
-[2018.05.13-05.08.30:560][  0]LightingResults: New page: Lighting Build
-[2018.05.13-05.08.30:582][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018742ab8a40, Size=312, Default__SideScrollerCharacter_C Function /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:ExecuteUbergraph_SideScrollerCharacter
-[2018.05.13-05.08.30:595][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018742ab8a40, Size=312
-[2018.05.13-05.08.30:595][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018741b7bd80, Size=312, Default__SideScrollerCharacter_C Function /Engine/Transient.REINST_SideScrollerCharacter_C_1:ExecuteUbergraph_SideScrollerCharacter
-[2018.05.13-05.08.30:601][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x0000018741b7b880, Size=312, Default__SideScrollerCharacter_C Function /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:ExecuteUbergraph_SideScrollerCharacter
-[2018.05.13-05.08.30:617][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001875ad2f850, Size=48, Default__CL_C Function /Game/CL.CL_C:ExecuteUbergraph_CL
-[2018.05.13-05.08.30:619][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001875ad2f850, Size=48
-[2018.05.13-05.08.30:619][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001875ad2f850, Size=48, Default__CL_C Function /Engine/Transient.REINST_CL_C_4:ExecuteUbergraph_CL
-[2018.05.13-05.08.30:620][  0]LogBlueprint: Warning: [Compiler CL] 'Side Scroller Character' does not inherit from 'Box Collision' ( Cast To SideScrollerCharacter  would always fail).
-[2018.05.13-05.08.30:621][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000001875ad2f220, Size=48, Default__CL_C Function /Game/CL.CL_C:ExecuteUbergraph_CL
-[2018.05.13-05.08.30:621][  0]LogBlueprint: Warning: [Compiler CL] [0012.95] Compile of CL successful, but with 1 Warning(s) [in 2 ms] (/Game/CL.CL)
-[2018.05.13-05.08.30:672][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/desk1'
-[2018.05.13-05.08.30:672][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/desk1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/desk.uasset.
-[2018.05.13-05.08.30:672][  0]LoadErrors: Error: /Game/OFFICE/desk : Can't find file for asset. /Game/OFFICE/desk1
-[2018.05.13-05.08.30:672][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/desk1'
-[2018.05.13-05.08.30:673][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/desk1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/desk.uasset.
-[2018.05.13-05.08.30:673][  0]LoadErrors: Error: /Game/OFFICE/desk : Can't find file for asset. /Game/OFFICE/desk1
-[2018.05.13-05.08.30:674][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/INK'
-[2018.05.13-05.08.30:674][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/INK' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/Paper.uasset.
-[2018.05.13-05.08.30:674][  0]LoadErrors: Error: /Game/OFFICE/Paper : Can't find file for asset. /Game/OFFICE/INK
-[2018.05.13-05.08.30:674][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PAPER1'
-[2018.05.13-05.08.30:674][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PAPER1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/Paper.uasset.
-[2018.05.13-05.08.30:674][  0]LoadErrors: Error: /Game/OFFICE/Paper : Can't find file for asset. /Game/OFFICE/PAPER1
-[2018.05.13-05.08.30:674][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/INK'
-[2018.05.13-05.08.30:674][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/INK' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/Paper.uasset.
-[2018.05.13-05.08.30:675][  0]LoadErrors: Error: /Game/OFFICE/Paper : Can't find file for asset. /Game/OFFICE/INK
-[2018.05.13-05.08.30:675][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PAPER1'
-[2018.05.13-05.08.30:675][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PAPER1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/Paper.uasset.
-[2018.05.13-05.08.30:675][  0]LoadErrors: Error: /Game/OFFICE/Paper : Can't find file for asset. /Game/OFFICE/PAPER1
-[2018.05.13-05.08.30:676][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/BLACK1'
-[2018.05.13-05.08.30:676][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/BLACK1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:677][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/BLACK1
-[2018.05.13-05.08.30:677][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/E'
-[2018.05.13-05.08.30:677][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/E' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:677][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/E
-[2018.05.13-05.08.30:677][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/metal_green'
-[2018.05.13-05.08.30:677][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/metal_green' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:677][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/metal_green
-[2018.05.13-05.08.30:677][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/pensal_yellow'
-[2018.05.13-05.08.30:677][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/pensal_yellow' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:677][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/pensal_yellow
-[2018.05.13-05.08.30:677][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PENSIL_WOOD'
-[2018.05.13-05.08.30:677][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PENSIL_WOOD' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:677][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/PENSIL_WOOD
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/BLACK1'
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/BLACK1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:678][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/BLACK1
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/E'
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/E' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:678][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/E
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/metal_green'
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/metal_green' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:678][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/metal_green
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/pensal_yellow'
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/pensal_yellow' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:678][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/pensal_yellow
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PENSIL_WOOD'
-[2018.05.13-05.08.30:678][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PENSIL_WOOD' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
-[2018.05.13-05.08.30:678][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/PENSIL_WOOD
-[2018.05.13-05.08.30:748][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/metal_green'
-[2018.05.13-05.08.30:748][  0]LoadErrors: Failed to load /Game/OFFICE/metal_green.metal_green Referenced by pensil
-[2018.05.13-05.08.30:748][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/metal_green' while loading NULL.
-[2018.05.13-05.08.30:748][  0]LoadErrors: Failed to load /Game/OFFICE/metal_green.metal_green Referenced by pensil
-[2018.05.13-05.08.30:749][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/pensal_yellow'
-[2018.05.13-05.08.30:749][  0]LoadErrors: Failed to load /Game/OFFICE/pensal_yellow.pensal_yellow Referenced by pensil
-[2018.05.13-05.08.30:749][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/pensal_yellow' while loading NULL.
-[2018.05.13-05.08.30:749][  0]LoadErrors: Failed to load /Game/OFFICE/pensal_yellow.pensal_yellow Referenced by pensil
-[2018.05.13-05.08.30:749][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/E'
-[2018.05.13-05.08.30:749][  0]LoadErrors: Failed to load /Game/OFFICE/E.E Referenced by pensil
-[2018.05.13-05.08.30:749][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/E' while loading NULL.
-[2018.05.13-05.08.30:749][  0]LoadErrors: Failed to load /Game/OFFICE/E.E Referenced by pensil
-[2018.05.13-05.08.30:750][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PENSIL_WOOD'
-[2018.05.13-05.08.30:750][  0]LoadErrors: Failed to load /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD Referenced by pensil
-[2018.05.13-05.08.30:750][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PENSIL_WOOD' while loading NULL.
-[2018.05.13-05.08.30:750][  0]LoadErrors: Failed to load /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD Referenced by pensil
-[2018.05.13-05.08.30:750][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/BLACK1'
-[2018.05.13-05.08.30:750][  0]LoadErrors: Failed to load /Game/OFFICE/BLACK1.BLACK1 Referenced by pensil
-[2018.05.13-05.08.30:750][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/BLACK1' while loading NULL.
-[2018.05.13-05.08.30:750][  0]LoadErrors: Failed to load /Game/OFFICE/BLACK1.BLACK1 Referenced by pensil
-[2018.05.13-05.08.30:750][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/metal_green'
-[2018.05.13-05.08.30:750][  0]LoadErrors: Failed to load /Game/OFFICE/metal_green.metal_green Referenced by pensil
-[2018.05.13-05.08.30:750][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/metal_green' while loading NULL.
-[2018.05.13-05.08.30:750][  0]LoadErrors: Failed to load /Game/OFFICE/metal_green.metal_green Referenced by pensil
-[2018.05.13-05.08.30:750][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/pensal_yellow'
-[2018.05.13-05.08.30:750][  0]LoadErrors: Failed to load /Game/OFFICE/pensal_yellow.pensal_yellow Referenced by pensil
-[2018.05.13-05.08.30:751][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/pensal_yellow' while loading NULL.
-[2018.05.13-05.08.30:751][  0]LoadErrors: Failed to load /Game/OFFICE/pensal_yellow.pensal_yellow Referenced by pensil
-[2018.05.13-05.08.30:751][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/E'
-[2018.05.13-05.08.30:751][  0]LoadErrors: Failed to load /Game/OFFICE/E.E Referenced by pensil
-[2018.05.13-05.08.30:751][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/E' while loading NULL.
-[2018.05.13-05.08.30:751][  0]LoadErrors: Failed to load /Game/OFFICE/E.E Referenced by pensil
-[2018.05.13-05.08.30:751][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PENSIL_WOOD'
-[2018.05.13-05.08.30:751][  0]LoadErrors: Failed to load /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD Referenced by pensil
-[2018.05.13-05.08.30:751][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PENSIL_WOOD' while loading NULL.
-[2018.05.13-05.08.30:751][  0]LoadErrors: Failed to load /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD Referenced by pensil
-[2018.05.13-05.08.30:751][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/BLACK1'
-[2018.05.13-05.08.30:751][  0]LoadErrors: Failed to load /Game/OFFICE/BLACK1.BLACK1 Referenced by pensil
-[2018.05.13-05.08.30:751][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/BLACK1' while loading NULL.
-[2018.05.13-05.08.30:751][  0]LoadErrors: Failed to load /Game/OFFICE/BLACK1.BLACK1 Referenced by pensil
-[2018.05.13-05.08.30:752][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PAPER1'
-[2018.05.13-05.08.30:752][  0]LoadErrors: Failed to load /Game/OFFICE/PAPER1.PAPER1 Referenced by Paper
-[2018.05.13-05.08.30:752][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PAPER1' while loading NULL.
-[2018.05.13-05.08.30:752][  0]LoadErrors: Failed to load /Game/OFFICE/PAPER1.PAPER1 Referenced by Paper
-[2018.05.13-05.08.30:752][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/INK'
-[2018.05.13-05.08.30:752][  0]LoadErrors: Failed to load /Game/OFFICE/INK.INK Referenced by Paper
-[2018.05.13-05.08.30:752][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/INK' while loading NULL.
-[2018.05.13-05.08.30:752][  0]LoadErrors: Failed to load /Game/OFFICE/INK.INK Referenced by Paper
-[2018.05.13-05.08.30:752][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PAPER1'
-[2018.05.13-05.08.30:752][  0]LoadErrors: Failed to load /Game/OFFICE/PAPER1.PAPER1 Referenced by Paper
-[2018.05.13-05.08.30:752][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PAPER1' while loading NULL.
-[2018.05.13-05.08.30:753][  0]LoadErrors: Failed to load /Game/OFFICE/PAPER1.PAPER1 Referenced by Paper
-[2018.05.13-05.08.30:753][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/INK'
-[2018.05.13-05.08.30:753][  0]LoadErrors: Failed to load /Game/OFFICE/INK.INK Referenced by Paper
-[2018.05.13-05.08.30:753][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/INK' while loading NULL.
-[2018.05.13-05.08.30:753][  0]LoadErrors: Failed to load /Game/OFFICE/INK.INK Referenced by Paper
-[2018.05.13-05.08.30:753][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/desk1'
-[2018.05.13-05.08.30:753][  0]LoadErrors: Failed to load /Game/OFFICE/desk1.desk1 Referenced by desk
-[2018.05.13-05.08.30:753][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/desk1' while loading NULL.
-[2018.05.13-05.08.30:753][  0]LoadErrors: Failed to load /Game/OFFICE/desk1.desk1 Referenced by desk
-[2018.05.13-05.08.30:754][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/desk1'
-[2018.05.13-05.08.30:754][  0]LoadErrors: Failed to load /Game/OFFICE/desk1.desk1 Referenced by desk
-[2018.05.13-05.08.30:754][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/desk1' while loading NULL.
-[2018.05.13-05.08.30:754][  0]LoadErrors: Failed to load /Game/OFFICE/desk1.desk1 Referenced by desk
-[2018.05.13-05.08.30:902][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.467968ms] /Game/SideScrollerBP/Character/Paper_Tiger.Paper_Tiger
-[2018.05.13-05.08.30:903][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.05.13-05.08.30:916][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.13-05.08.30:936][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000001875ad2f850, Size=48
-[2018.05.13-05.08.30:936][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x0000018741b7bd80, Size=312
-[2018.05.13-05.08.30:936][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.13-05.08.31:027][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 91.36ms to complete.
-[2018.05.13-05.08.31:027][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.471
-[2018.05.13-05.08.31:166][  0]LogCollectionManager: Loaded 0 collections in 0.003539 seconds
-[2018.05.13-05.08.31:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Collections/' took 0.01s
-[2018.05.13-05.08.31:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/Developers/Jeremy/Collections/' took 0.01s
-[2018.05.13-05.08.31:215][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/Collections/' took 0.01s
-[2018.05.13-05.08.31:215][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.05.13-05.08.31:226][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2452 classes and 558 folders.
-[2018.05.13-05.08.31:237][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.05.13-05.08.31:317][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.13-05.08.31:323][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.05.13-05.08.32:632][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2018.05.13-05.08.32:662][  0]LogSlate: Took 0.000213 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.13-05.08.32:664][  0]LogSlate: Took 0.000287 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.13-05.08.32:671][  0]LogSlate: Took 0.000365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.13-05.08.32:796][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ArtisanReunion
-[2018.05.13-05.08.32:796][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.05.13-05.08.32:796][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
-[2018.05.13-05.08.32:796][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
-[2018.05.13-05.08.32:797][  0]LogTemp: BranchPath = DESKTOP-LPQT5LQ/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-LPQT5LQ/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
-[2018.05.13-05.08.32:797][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jeremy\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.13-05.08.32:797][  0]LogRenderer: Reallocating scene render targets to support 660x292 Format 9 NumSamples 1 (Frame:1).
-[2018.05.13-05.08.33:568][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.13-05.08.33:695][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.13-05.08.33:695][  0]LogLoad: (Engine Initialization) Total time: 16.03 seconds
-[2018.05.13-05.08.33:695][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.13-05.08.34:031][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.13-05.08.34:221][  0]LogContentStreaming: Texture pool size now 400 MB
-[2018.05.13-05.08.34:230][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.13-05.08.34:395][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/' took 0.35s
-[2018.05.13-05.08.34:745][  2]LogAssetRegistry: Asset discovery search completed in 11.2079 seconds
-[2018.05.13-05.08.34:751][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.13-05.08.34:751][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
-[2018.05.13-05.08.38:475][ 19]LogSlate: Window 'Message Log' being destroyed
-[2018.05.13-05.08.38:486][ 19]LogSlate: Window 'Message Log' being destroyed
-[2018.05.13-05.08.56:910][334]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.13-05.09.39:180][988]LogSlate: Took 0.000430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.05.13-05.09.41:794][988]LogSlate: Window 'Pick Parent Class' being destroyed
-[2018.05.13-05.09.49:469][428]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0006 seconds. Added 116 classes and 0 folders.
-[2018.05.13-05.09.49:777][428]LogUObjectGlobals: Created PersistentFrame Addr=0x000001876e7c2e30, Size=4, Default__SKEL_PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.SKEL_PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.05.13-05.09.49:778][428]LogUObjectGlobals: Created PersistentFrame Addr=0x000001876e7c2e28, Size=4, Default__PROTO_BP_AnimBlueprint_0_C Function /Engine/Transient.PROTO_BP_AnimBlueprint_0_C:ExecuteUbergraph_PROTO_BP_AnimBlueprint_0
-[2018.05.13-05.09.51:041][428]LogRenderer: Reallocating scene render targets to support 728x464 Format 9 NumSamples 1 (Frame:1).
-[2018.05.13-05.09.53:739][563]LogSlate: Window 'paper*' being destroyed
-[2018.05.13-05.11.58:767][668]LogSlate: Took 0.024066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.13-05.11.59:397][710]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.13-05.15.11:799][250]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.13-05.15.37:828][302]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban1.fbx)
-[2018.05.13-05.15.37:925][302]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.05.13-05.15.37:925][302]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.05.13-05.15.37:925][302]LogFbx: ItemName: Model, ItemCount : 1
-[2018.05.13-05.15.37:925][302]LogFbx: ItemName: Material, ItemCount : 6
-[2018.05.13-05.15.37:934][302]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban1.fbx
-[2018.05.13-05.15.37:950][302]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.13-05.15.39:587][302]LogSlate: Window 'FBX Import Options' being destroyed
-[2018.05.13-05.15.39:684][302]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban1.fbx
-[2018.05.13-05.15.39:693][302]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.13-05.15.39:764][302]LogMaterial: Missing cached shader map for material greensih, compiling. 
-[2018.05.13-05.15.39:830][302]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.05.13-05.15.39:830][302]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.05.13-05.15.39:830][302]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.05.13-05.15.39:854][302]LogMaterial: Missing cached shader map for material banboo, compiling. 
-[2018.05.13-05.15.39:868][302]LogMaterial: Missing cached shader map for material stem, compiling. 
-[2018.05.13-05.15.39:898][302]LogMaterial: Missing cached shader map for material leaf, compiling. 
-[2018.05.13-05.15.39:945][302]LogMaterial: Missing cached shader map for material stem_001, compiling. 
-[2018.05.13-05.15.39:988][302]LogMaterial: Missing cached shader map for material leaf_001, compiling. 
-[2018.05.13-05.15.39:996][302]LogFbx: Warning: Triangulating static mesh Cylinder.001
-[2018.05.13-05.15.40:500][302]LogStaticMesh: Building static mesh ban1...
-[2018.05.13-05.15.40:704][302]LogStaticMesh: Built static mesh [0.25s] /Game/OFFICE/ENV/ban1.ban1
-[2018.05.13-05.15.41:276][302]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.13-05.15.41:354][302]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban2.fbx)
-[2018.05.13-05.15.41:372][302]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban2.fbx
-[2018.05.13-05.15.41:380][302]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.13-05.15.41:422][302]LogMaterial: Missing cached shader map for material greensih_001, compiling. 
-[2018.05.13-05.15.41:483][302]LogMaterial: Missing cached shader map for material banboo_001, compiling. 
-[2018.05.13-05.15.41:537][302]LogMaterial: Missing cached shader map for material stem_002, compiling. 
-[2018.05.13-05.15.41:567][302]LogMaterial: Missing cached shader map for material leaf_002, compiling. 
-[2018.05.13-05.15.41:575][302]LogFbx: Warning: Triangulating static mesh Cylinder.003
-[2018.05.13-05.15.41:729][302]LogStaticMesh: Building static mesh ban2...
-[2018.05.13-05.15.41:765][302]LogStaticMesh: Built static mesh [0.08s] /Game/OFFICE/ENV/ban2.ban2
-[2018.05.13-05.15.41:881][302]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.13-05.15.41:930][302]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban3.fbx)
-[2018.05.13-05.15.42:101][302]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban3.fbx
-[2018.05.13-05.15.42:107][302]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.13-05.15.42:133][302]LogMaterial: Missing cached shader map for material greensih_002, compiling. 
-[2018.05.13-05.15.42:167][302]LogMaterial: Missing cached shader map for material banboo_002, compiling. 
-[2018.05.13-05.15.42:176][302]LogFbx: Warning: Triangulating static mesh Cylinder.005
-[2018.05.13-05.15.42:288][302]LogStaticMesh: Building static mesh ban3...
-[2018.05.13-05.15.42:310][302]LogStaticMesh: Built static mesh [0.07s] /Game/OFFICE/ENV/ban3.ban3
-[2018.05.13-05.15.42:370][302]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.13-05.15.43:273][306]LogShaderCompilers: Display: Shaders left to compile 242
-[2018.05.13-05.15.44:758][310]LogShaderCompilers: Display: Shaders left to compile 232
-[2018.05.13-05.15.45:044][316]LogSlate: Window 'Message Log' being destroyed
-[2018.05.13-05.15.45:052][316]LogSlate: Window 'Message Log' being destroyed
-[2018.05.13-05.15.45:152][317]LogShaderCompilers: Display: Shaders left to compile 222
-[2018.05.13-05.15.45:803][319]LogShaderCompilers: Display: Shaders left to compile 212
-[2018.05.13-05.15.46:538][320]LogShaderCompilers: Display: Shaders left to compile 202
-[2018.05.13-05.15.48:132][325]LogShaderCompilers: Display: Shaders left to compile 192
-[2018.05.13-05.15.48:132][325]LogShaderCompilers: Display: Shaders left to compile 182
-[2018.05.13-05.15.48:311][326]LogShaderCompilers: Display: Shaders left to compile 172
-[2018.05.13-05.15.49:619][328]LogShaderCompilers: Display: Shaders left to compile 162
-[2018.05.13-05.15.50:179][329]LogShaderCompilers: Display: Shaders left to compile 152
-[2018.05.13-05.15.50:387][332]LogShaderCompilers: Display: Shaders left to compile 142
-[2018.05.13-05.15.51:685][333]LogShaderCompilers: Display: Shaders left to compile 132
-[2018.05.13-05.15.51:833][334]LogShaderCompilers: Display: Shaders left to compile 122
-[2018.05.13-05.15.52:694][337]LogShaderCompilers: Display: Shaders left to compile 112
-[2018.05.13-05.15.53:258][338]LogShaderCompilers: Display: Shaders left to compile 102
-[2018.05.13-05.15.54:050][339]LogShaderCompilers: Display: Shaders left to compile 92
-[2018.05.13-05.15.54:410][342]LogShaderCompilers: Display: Shaders left to compile 82
-[2018.05.13-05.15.55:778][343]LogShaderCompilers: Display: Shaders left to compile 72
-[2018.05.13-05.15.55:950][344]LogShaderCompilers: Display: Shaders left to compile 62
-[2018.05.13-05.15.56:600][346]LogShaderCompilers: Display: Shaders left to compile 52
-[2018.05.13-05.15.57:754][348]LogShaderCompilers: Display: Shaders left to compile 42
-[2018.05.13-05.15.57:907][352]LogShaderCompilers: Display: Shaders left to compile 32
-[2018.05.13-05.15.58:711][353]LogShaderCompilers: Display: Shaders left to compile 22
-[2018.05.13-05.15.59:477][354]LogShaderCompilers: Display: Shaders left to compile 12
-[2018.05.13-05.16.00:240][359]LogShaderCompilers: Display: Shaders left to compile 2
-[2018.05.13-05.16.05:130][555]LogActorFactory: Actor Factory created ban1
-[2018.05.13-05.16.05:140][555]LogActorFactory: Actor Factory created ban2
-[2018.05.13-05.16.05:140][555]LogActorFactory: Actor Factory created ban3
-[2018.05.13-05.16.06:502][624]LogActorFactory: Actor Factory created ban1
-[2018.05.13-05.16.06:537][624]LogActorFactory: Actor Factory created ban2
-[2018.05.13-05.16.06:554][624]LogActorFactory: Actor Factory created ban3
-[2018.05.13-05.16.10:268][828]Cmd: DELETE
-[2018.05.13-05.16.10:268][828]Cmd: ACTOR DELETE
-[2018.05.13-05.16.10:298][828]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.13-05.16.10:299][828]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.13-05.16.10:299][828]LogEditorActor: Deleted Actor: StaticMeshActor
-[2018.05.13-05.16.10:328][828]LogEditorActor: Deleted 3 Actors (0.059 secs)
-[2018.05.13-05.16.10:891][855]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.13-05.16.13:572][913]LogRenderer: Reallocating scene render targets to support 956x612 Format 9 NumSamples 1 (Frame:1).
-[2018.05.13-05.16.20:264][215]LogActorFactory: Actor Factory created ban1
-[2018.05.13-05.16.20:987][249]LogActorFactory: Actor Factory created ban1
-[2018.05.13-05.16.27:370][538]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.13-05.16.30:663][707]LogSlate: Window 'Select Path' being destroyed
-[2018.05.13-05.16.30:788][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ban1_Blueprint" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset" SILENT=true
-[2018.05.13-05.16.30:804][707]LogSavePackage: Save=14.16ms
-[2018.05.13-05.16.30:804][707]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/ban1_Blueprint8DECDB2142FAB136A771BCA0B56F9AFB.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset'
-[2018.05.13-05.16.30:809][707]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset
-[2018.05.13-05.16.36:624][975]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.13-05.16.40:588][416]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.13-05.16.51:710][962]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.13-05.16.59:328][405]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.13-05.19.21:547][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.13-05.19.21:661][215]BlueprintLog: New page: Compile ban1_Blueprint
-[2018.05.13-05.19.22:210][215]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ban1_Blueprint" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset" SILENT=true
-[2018.05.13-05.19.22:375][215]LogSavePackage: Save=83.91ms
-[2018.05.13-05.19.22:375][215]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/ban1_BlueprintE2A8915E4C3118B371E93F90BECBE8B4.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset'
-[2018.05.13-05.19.22:381][215]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset
-[2018.05.13-05.19.24:097][284]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2018.05.13-05.20.12:339][675]LogEditorViewport: Clicking on Actor (context menu): ban1_Blueprint_C (ban1_Blueprint3)
-[2018.05.13-05.20.12:538][675]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.13-05.20.13:322][735]LogEditorViewport: Clicking on Actor (LMB): ban1_Blueprint_C (ban1_Blueprint6)
-[2018.05.13-05.20.19:008][977]LogEditorViewport: Clicking on Actor (LMB): ban1_Blueprint_C (ban1_Blueprint2)
-[2018.05.13-05.20.44:465][878]LogEditorViewport: Clicking on Actor (LMB): CL_C (CL)
-[2018.05.13-05.21.21:227][195]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.05.13-05.21.21:772][195]LogSavePackage: Save=410.53ms
-[2018.05.13-05.21.21:772][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/SideScrollerExampleMap_Auto1739D07D84F364ED532F38C9D4E79A2A2.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
-[2018.05.13-05.21.21:776][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
-[2018.05.13-05.21.21:779][195]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.505
-[2018.05.13-05.21.21:779][195]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.505
-[2018.05.13-05.21.21:784][195]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/paper] ([1] browsable assets)...
-[2018.05.13-05.21.21:784][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/paper]
-[2018.05.13-05.21.21:784][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/paper" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/paper_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.05.13-05.21.21:795][195]LogSavePackage: Save=6.53ms
-[2018.05.13-05.21.21:795][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/paper_Auto13FFA257C4AC7CD908C15CDA7A75A7575.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/paper_Auto1.uasset'
-[2018.05.13-05.21.21:797][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/paper_Auto1.uasset
-[2018.05.13-05.21.21:799][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/ban1] ([1] browsable assets)...
-[2018.05.13-05.21.21:819][195]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/ENV/ban1.ban1]
-[2018.05.13-05.21.21:819][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/ban1]
-[2018.05.13-05.21.21:819][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/ban1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban1_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.05.13-05.21.21:859][195]LogSavePackage: Save=37.87ms
-[2018.05.13-05.21.21:859][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/ban1_Auto1D0A5E8074B694E479912C88B918F0F0A.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban1_Auto1.uasset'
-[2018.05.13-05.21.21:862][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban1_Auto1.uasset
-[2018.05.13-05.21.21:865][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/greensih] ([1] browsable assets)...
-[2018.05.13-05.21.21:884][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/greensih.greensih]
-[2018.05.13-05.21.21:884][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/greensih]
-[2018.05.13-05.21.21:898][195]LogSavePackage: Save=11.21ms
-[2018.05.13-05.21.21:898][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/greensih_Auto16735A19E478412E21EE525AC1D4F2276.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/greensih_Auto1.uasset'
-[2018.05.13-05.21.21:901][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/greensih_Auto1.uasset
-[2018.05.13-05.21.21:903][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/banboo] ([1] browsable assets)...
-[2018.05.13-05.21.21:922][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/banboo.banboo]
-[2018.05.13-05.21.21:922][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/banboo]
-[2018.05.13-05.21.21:937][195]LogSavePackage: Save=11.05ms
-[2018.05.13-05.21.21:937][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/banboo_Auto15F2239874BB542C2D67C25A1DE70330F.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/banboo_Auto1.uasset'
-[2018.05.13-05.21.21:941][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/banboo_Auto1.uasset
-[2018.05.13-05.21.21:943][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/stem] ([1] browsable assets)...
-[2018.05.13-05.21.21:967][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/stem.stem]
-[2018.05.13-05.21.21:967][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/stem]
-[2018.05.13-05.21.21:967][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/stem" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/stem_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.05.13-05.21.21:980][195]LogSavePackage: Save=11.12ms
-[2018.05.13-05.21.21:981][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem_Auto1268B0F0C47F9C882192D3D8A5172A77F.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/stem_Auto1.uasset'
-[2018.05.13-05.21.21:985][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/stem_Auto1.uasset
-[2018.05.13-05.21.21:987][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/leaf] ([1] browsable assets)...
-[2018.05.13-05.21.22:009][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/leaf.leaf]
-[2018.05.13-05.21.22:010][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/leaf]
-[2018.05.13-05.21.22:010][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/leaf" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/leaf_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.05.13-05.21.22:024][195]LogSavePackage: Save=11.57ms
-[2018.05.13-05.21.22:024][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/leaf_Auto1A780BB084496D82045308597FA1C653A.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/leaf_Auto1.uasset'
-[2018.05.13-05.21.22:028][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/leaf_Auto1.uasset
-[2018.05.13-05.21.22:030][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/stem_001] ([1] browsable assets)...
-[2018.05.13-05.21.22:049][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/stem_001.stem_001]
-[2018.05.13-05.21.22:049][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/stem_001]
-[2018.05.13-05.21.22:062][195]LogSavePackage: Save=10.92ms
-[2018.05.13-05.21.22:062][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem_001_Auto13507D8734A02CF3B761FE28F38ABEB2A.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/stem_001_Auto1.uasset'
-[2018.05.13-05.21.22:065][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/stem_001_Auto1.uasset
-[2018.05.13-05.21.22:067][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/leaf_001] ([1] browsable assets)...
-[2018.05.13-05.21.22:089][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/leaf_001.leaf_001]
-[2018.05.13-05.21.22:089][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/leaf_001]
-[2018.05.13-05.21.22:104][195]LogSavePackage: Save=11.06ms
-[2018.05.13-05.21.22:104][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/leaf_001_Auto1EF8DE73E421C8A578DD34CB2F27B74EB.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/leaf_001_Auto1.uasset'
-[2018.05.13-05.21.22:107][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/leaf_001_Auto1.uasset
-[2018.05.13-05.21.22:109][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/ban2] ([1] browsable assets)...
-[2018.05.13-05.21.22:135][195]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/ENV/ban2.ban2]
-[2018.05.13-05.21.22:135][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/ban2]
-[2018.05.13-05.21.22:135][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/ban2" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban2_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.05.13-05.21.22:149][195]LogSavePackage: Save=11.89ms
-[2018.05.13-05.21.22:149][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/ban2_Auto16F466B7B4D2017462F5604B67C5EEEF3.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban2_Auto1.uasset'
-[2018.05.13-05.21.22:152][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban2_Auto1.uasset
-[2018.05.13-05.21.22:155][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/greensih_001] ([1] browsable assets)...
-[2018.05.13-05.21.22:175][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/greensih_001.greensih_001]
-[2018.05.13-05.21.22:175][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/greensih_001]
-[2018.05.13-05.21.22:189][195]LogSavePackage: Save=11.90ms
-[2018.05.13-05.21.22:189][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/greensih_001_Auto1BD35CC2F46550C92FE33B89A32328C2F.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/greensih_001_Auto1.uasset'
-[2018.05.13-05.21.22:193][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/greensih_001_Auto1.uasset
-[2018.05.13-05.21.22:195][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/banboo_001] ([1] browsable assets)...
-[2018.05.13-05.21.22:216][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/banboo_001.banboo_001]
-[2018.05.13-05.21.22:216][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/banboo_001]
-[2018.05.13-05.21.22:230][195]LogSavePackage: Save=11.05ms
-[2018.05.13-05.21.22:230][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/banboo_001_Auto19AE04854455D56FF70931AAFBBA85086.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/banboo_001_Auto1.uasset'
-[2018.05.13-05.21.22:233][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/banboo_001_Auto1.uasset
-[2018.05.13-05.21.22:235][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/stem_002] ([1] browsable assets)...
-[2018.05.13-05.21.22:261][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/stem_002.stem_002]
-[2018.05.13-05.21.22:262][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/stem_002]
-[2018.05.13-05.21.22:275][195]LogSavePackage: Save=11.11ms
-[2018.05.13-05.21.22:275][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem_002_Auto16FD823DB43FE98248ABB83A00DF03CEA.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/stem_002_Auto1.uasset'
-[2018.05.13-05.21.22:278][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/stem_002_Auto1.uasset
-[2018.05.13-05.21.22:280][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/leaf_002] ([1] browsable assets)...
-[2018.05.13-05.21.22:312][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/leaf_002.leaf_002]
-[2018.05.13-05.21.22:312][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/leaf_002]
-[2018.05.13-05.21.22:358][195]LogSavePackage: Save=43.39ms
-[2018.05.13-05.21.22:358][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/leaf_002_Auto106F7CB3F4FC6B0616BDFDF8D3913B003.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/leaf_002_Auto1.uasset'
-[2018.05.13-05.21.22:361][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/leaf_002_Auto1.uasset
-[2018.05.13-05.21.22:364][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/ban3] ([1] browsable assets)...
-[2018.05.13-05.21.22:392][195]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/OFFICE/ENV/ban3.ban3]
-[2018.05.13-05.21.22:392][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/ban3]
-[2018.05.13-05.21.22:395][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/ban3" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban3_Auto1.uasset" SILENT=false AUTOSAVING=true
-[2018.05.13-05.21.22:477][195]LogSavePackage: Save=18.03ms
-[2018.05.13-05.21.22:477][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/ban3_Auto1E6BCF8E8496C29D65E61FCBE1D834277.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban3_Auto1.uasset'
-[2018.05.13-05.21.22:480][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/ban3_Auto1.uasset
-[2018.05.13-05.21.22:482][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/greensih_002] ([1] browsable assets)...
-[2018.05.13-05.21.22:508][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/greensih_002.greensih_002]
-[2018.05.13-05.21.22:508][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/greensih_002]
-[2018.05.13-05.21.22:561][195]LogSavePackage: Save=50.58ms
-[2018.05.13-05.21.22:561][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/greensih_002_Auto1E9ABC3DF4864459B047AC9822D191CAE.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/greensih_002_Auto1.uasset'
-[2018.05.13-05.21.22:564][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/greensih_002_Auto1.uasset
-[2018.05.13-05.21.22:566][195]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/OFFICE/ENV/banboo_002] ([1] browsable assets)...
-[2018.05.13-05.21.22:605][195]OBJ SavePackage:     Rendered thumbnail for [Material /Game/OFFICE/ENV/banboo_002.banboo_002]
-[2018.05.13-05.21.22:605][195]OBJ SavePackage: Finished generating thumbnails for package [/Game/OFFICE/ENV/banboo_002]
-[2018.05.13-05.21.22:665][195]LogSavePackage: Save=23.99ms
-[2018.05.13-05.21.22:665][195]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/banboo_002_Auto10791557D404BA7ADB1653EBCF513A413.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/banboo_002_Auto1.uasset'
-[2018.05.13-05.21.22:668][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Autosaves/Game/OFFICE/ENV/banboo_002_Auto1.uasset
-[2018.05.13-05.21.22:668][195]LogFileHelpers: Auto-saving content packages took 0.887
+[2018.05.13-05.27.55:110][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.13-05.27.55:110][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.13-05.27.55:151][  0]LogInit: Computer: DESKTOP-LPQT5LQ
+[2018.05.13-05.27.55:151][  0]LogInit: User: Jeremy
+[2018.05.13-05.27.55:151][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.13-05.27.55:151][  0]LogInit: High frequency timer resolution =2.929690 MHz
+[2018.05.13-05.27.55:151][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.13-05.27.55:151][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.13-05.27.55:151][  0]LogMemory: Process Physical Memory: 276.24 MB used, 276.24 MB peak
+[2018.05.13-05.27.55:151][  0]LogMemory: Process Virtual Memory: 266.21 MB used, 266.21 MB peak
+[2018.05.13-05.27.55:151][  0]LogMemory: Physical Memory: 3085.11 MB used,  5002.81 MB free, 8087.92 MB total
+[2018.05.13-05.27.55:151][  0]LogMemory: Virtual Memory: 674.51 MB used,  5002.81 MB free, 134217728.00 MB total
+[2018.05.13-05.27.55:179][  0]LogInit: Using OS detected language (en-US).
+[2018.05.13-05.27.55:179][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.13-05.27.55:183][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.13-05.27.55:575][  0]LogStreaming: Display: Took  0.395s to EndInitTextLocalization.
+[2018.05.13-05.27.55:575][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.13-05.27.55:603][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.05.13-05.27.55:603][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.05.13-05.27.55:815][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.13-05.27.55:825][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.05.13-05.27.55:825][  0]LogD3D11RHI:       128/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x8086
+[2018.05.13-05.27.55:828][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.13-05.27.55:828][  0]LogD3D11RHI:       0/0/4043 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.13-05.27.55:828][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.13-05.27.55:833][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.13-05.27.55:833][  0]LogD3D11RHI:     GPU DeviceId: 0x5912 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.13-05.27.55:833][  0]LogWindows: EnumDisplayDevices:
+[2018.05.13-05.27.55:833][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.05.13-05.27.55:833][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:1)
+[2018.05.13-05.27.55:834][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.13-05.27.55:834][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.13-05.27.55:834][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 630
+[2018.05.13-05.27.55:834][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.13-05.27.55:834][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.13-05.27.55:834][  0]LogRHI: Texture pool is 1504 MB (70% of 2149 MB)
+[2018.05.13-05.27.55:842][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.13-05.27.55:847][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2018.05.13-05.27.55:847][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Intermediate/Shaders/WorkingDirectory/3328/).
+[2018.05.13-05.27.55:847][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jeremy/AppData/Local/Temp/UnrealShaderWorkingDir/F7BCC4FF45562DC68E016AAD7B35C803/'.
+[2018.05.13-05.27.56:117][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.13-05.27.56:131][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.13-05.27.56:145][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.13-05.27.56:159][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.13-05.27.56:173][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.13-05.27.56:188][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.13-05.27.56:201][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.13-05.27.56:215][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.13-05.27.56:222][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.13-05.27.56:234][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.13-05.27.56:245][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.13-05.27.56:257][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.13-05.27.56:268][  0]LogTemp: Display: Loaded TP Android_ETC1aTargetPlatform
+[2018.05.13-05.27.56:279][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.13-05.27.56:291][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.13-05.27.56:313][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.13-05.27.56:313][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.13-05.27.56:325][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.13-05.27.56:327][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.13-05.27.56:365][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.13-05.27.56:377][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.13-05.27.56:388][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.13-05.27.56:399][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.13-05.27.56:411][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.13-05.27.56:422][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.13-05.27.56:422][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.13-05.27.56:563][  0]LogXGEController: Cleaning working directory: C:/Users/Jeremy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.13-05.27.56:563][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.13-05.27.56:563][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.13-05.27.56:563][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.13-05.27.57:223][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.13-05.27.57:292][  0]LogDerivedDataCache: Loaded boot cache 0.07s 74MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.13-05.27.57:292][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.13-05.27.57:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.13-05.27.57:292][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.13-05.27.57:292][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.13-05.27.57:292][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.13-05.27.57:307][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.13-05.27.57:320][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jeremy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.13-05.27.57:320][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.13-05.27.57:320][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.13-05.27.57:331][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.13-05.27.57:331][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.13-05.27.57:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.13-05.27.57:332][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.13-05.27.57:474][  0]LogAssetRegistry: FAssetRegistry took 0.0259 seconds to start up
+[2018.05.13-05.27.57:769][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.13-05.27.57:846][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.13-05.27.57:849][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.13-05.27.57:849][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.13-05.27.57:849][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.13-05.27.57:849][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.13-05.27.57:849][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.13-05.27.57:960][  0]LogNetVersion: ArtisanReunion , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2763199368)
+[2018.05.13-05.27.58:433][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.103544 seconds
+[2018.05.13-05.27.58:442][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.13-05.27.58:442][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.13-05.27.58:442][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.13-05.28.00:158][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.13-05.28.00:194][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.13-05.28.00:677][  0]SourceControl: Source control is disabled
+[2018.05.13-05.28.00:677][  0]SourceControl: Source control is disabled
+[2018.05.13-05.28.00:701][  0]SourceControl: Source control is disabled
+[2018.05.13-05.28.00:725][  0]SourceControl: Source control is disabled
+[2018.05.13-05.28.01:362][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.13-05.28.01:589][  0]LogOcInput: OculusInput pre-init called
+[2018.05.13-05.28.01:715][  0]LogEngine: Initializing Engine...
+[2018.05.13-05.28.01:717][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.13-05.28.01:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.13-05.28.01:718][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.13-05.28.01:954][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.13-05.28.01:979][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.13-05.28.02:129][  0]LogInit: FAudioDevice initialized.
+[2018.05.13-05.28.02:281][  0]LogDerivedDataCache: Saved boot cache 0.15s 74MB C:/Users/Jeremy/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.13-05.28.02:296][  0]LogInit: Texture streaming: Enabled
+[2018.05.13-05.28.02:330][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.13-05.28.02:330][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={7E52B499-4DC3-A9A6-D87E-E997A56D394C}
+[2018.05.13-05.28.02:347][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.13-05.28.02:419][  0]LogInit: Transaction tracking system initialized
+[2018.05.13-05.28.02:454][  0]BlueprintLog: New page: Editor Load
+[2018.05.13-05.28.02:547][  0]LocalizationService: Localization service is disabled
+[2018.05.13-05.28.02:927][  0]LogConsoleResponse: Display: 
+[2018.05.13-05.28.03:075][  0]LogAutoReimportManager: Warning: Unable to watch directory ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ as it will conflict with another watching ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/.
+[2018.05.13-05.28.03:087][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.13-05.28.03:087][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.13-05.28.03:087][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.13-05.28.03:087][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.13-05.28.03:087][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.13-05.28.03:588][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/' took 0.05s
+[2018.05.13-05.28.03:588][  0]SourceControl: Source control is disabled
+[2018.05.13-05.28.03:801][  0]LogSlate: Took 0.000438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.13-05.28.07:934][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2018.05.13-05.28.07:934][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.13-05.28.07:945][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.13-05.28.07:946][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.13-05.28.07:947][  0]LightingResults: New page: Lighting Build
+[2018.05.13-05.28.07:951][  0]MapCheck: New page: Map Check
+[2018.05.13-05.28.07:951][  0]LightingResults: New page: Lighting Build
+[2018.05.13-05.28.07:993][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002177d7bf9c0, Size=312, Default__SideScrollerCharacter_C Function /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:ExecuteUbergraph_SideScrollerCharacter
+[2018.05.13-05.28.08:024][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002177d7bf9c0, Size=312
+[2018.05.13-05.28.08:025][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002177d7bf9c0, Size=312, Default__SideScrollerCharacter_C Function /Engine/Transient.REINST_SideScrollerCharacter_C_1:ExecuteUbergraph_SideScrollerCharacter
+[2018.05.13-05.28.08:033][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002177d7be0c0, Size=312, Default__SideScrollerCharacter_C Function /Game/SideScrollerBP/Blueprints/SideScrollerCharacter.SideScrollerCharacter_C:ExecuteUbergraph_SideScrollerCharacter
+[2018.05.13-05.28.08:061][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002171918fac0, Size=48, Default__CL_C Function /Game/CL.CL_C:ExecuteUbergraph_CL
+[2018.05.13-05.28.08:063][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002171918fac0, Size=48
+[2018.05.13-05.28.08:063][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002171918fac0, Size=48, Default__CL_C Function /Engine/Transient.REINST_CL_C_4:ExecuteUbergraph_CL
+[2018.05.13-05.28.08:064][  0]LogBlueprint: Warning: [Compiler CL] 'Side Scroller Character' does not inherit from 'Box Collision' ( Cast To SideScrollerCharacter  would always fail).
+[2018.05.13-05.28.08:065][  0]LogUObjectGlobals: Created PersistentFrame Addr=0x000002171918e680, Size=48, Default__CL_C Function /Game/CL.CL_C:ExecuteUbergraph_CL
+[2018.05.13-05.28.08:066][  0]LogBlueprint: Warning: [Compiler CL] [0015.92] Compile of CL successful, but with 1 Warning(s) [in 3 ms] (/Game/CL.CL)
+[2018.05.13-05.28.08:133][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/desk1'
+[2018.05.13-05.28.08:133][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/desk1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/desk.uasset.
+[2018.05.13-05.28.08:133][  0]LoadErrors: Error: /Game/OFFICE/desk : Can't find file for asset. /Game/OFFICE/desk1
+[2018.05.13-05.28.08:134][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/desk1'
+[2018.05.13-05.28.08:134][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/desk1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/desk.uasset.
+[2018.05.13-05.28.08:134][  0]LoadErrors: Error: /Game/OFFICE/desk : Can't find file for asset. /Game/OFFICE/desk1
+[2018.05.13-05.28.08:136][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/INK'
+[2018.05.13-05.28.08:136][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/INK' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/Paper.uasset.
+[2018.05.13-05.28.08:136][  0]LoadErrors: Error: /Game/OFFICE/Paper : Can't find file for asset. /Game/OFFICE/INK
+[2018.05.13-05.28.08:137][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PAPER1'
+[2018.05.13-05.28.08:137][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PAPER1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/Paper.uasset.
+[2018.05.13-05.28.08:137][  0]LoadErrors: Error: /Game/OFFICE/Paper : Can't find file for asset. /Game/OFFICE/PAPER1
+[2018.05.13-05.28.08:137][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/INK'
+[2018.05.13-05.28.08:137][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/INK' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/Paper.uasset.
+[2018.05.13-05.28.08:137][  0]LoadErrors: Error: /Game/OFFICE/Paper : Can't find file for asset. /Game/OFFICE/INK
+[2018.05.13-05.28.08:138][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PAPER1'
+[2018.05.13-05.28.08:138][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PAPER1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/Paper.uasset.
+[2018.05.13-05.28.08:138][  0]LoadErrors: Error: /Game/OFFICE/Paper : Can't find file for asset. /Game/OFFICE/PAPER1
+[2018.05.13-05.28.08:139][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/BLACK1'
+[2018.05.13-05.28.08:139][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/BLACK1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:139][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/BLACK1
+[2018.05.13-05.28.08:139][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/E'
+[2018.05.13-05.28.08:139][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/E' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:139][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/E
+[2018.05.13-05.28.08:139][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/metal_green'
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/metal_green' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:140][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/metal_green
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/pensal_yellow'
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/pensal_yellow' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:140][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/pensal_yellow
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PENSIL_WOOD'
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PENSIL_WOOD' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:140][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/PENSIL_WOOD
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/BLACK1'
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/BLACK1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:140][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/BLACK1
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/E'
+[2018.05.13-05.28.08:140][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/E' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:140][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/E
+[2018.05.13-05.28.08:141][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/metal_green'
+[2018.05.13-05.28.08:141][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/metal_green' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:141][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/metal_green
+[2018.05.13-05.28.08:141][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/pensal_yellow'
+[2018.05.13-05.28.08:141][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/pensal_yellow' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:141][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/pensal_yellow
+[2018.05.13-05.28.08:141][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PENSIL_WOOD'
+[2018.05.13-05.28.08:141][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PENSIL_WOOD' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/pensil.uasset.
+[2018.05.13-05.28.08:141][  0]LoadErrors: Error: /Game/OFFICE/pensil : Can't find file for asset. /Game/OFFICE/PENSIL_WOOD
+[2018.05.13-05.28.08:241][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/desk1'
+[2018.05.13-05.28.08:241][  0]LoadErrors: Failed to load /Game/OFFICE/desk1.desk1 Referenced by desk
+[2018.05.13-05.28.08:241][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/desk1' while loading NULL.
+[2018.05.13-05.28.08:241][  0]LoadErrors: Failed to load /Game/OFFICE/desk1.desk1 Referenced by desk
+[2018.05.13-05.28.08:241][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/desk1'
+[2018.05.13-05.28.08:241][  0]LoadErrors: Failed to load /Game/OFFICE/desk1.desk1 Referenced by desk
+[2018.05.13-05.28.08:241][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/desk1' while loading NULL.
+[2018.05.13-05.28.08:241][  0]LoadErrors: Failed to load /Game/OFFICE/desk1.desk1 Referenced by desk
+[2018.05.13-05.28.08:241][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/metal_green'
+[2018.05.13-05.28.08:241][  0]LoadErrors: Failed to load /Game/OFFICE/metal_green.metal_green Referenced by pensil
+[2018.05.13-05.28.08:241][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/metal_green' while loading NULL.
+[2018.05.13-05.28.08:242][  0]LoadErrors: Failed to load /Game/OFFICE/metal_green.metal_green Referenced by pensil
+[2018.05.13-05.28.08:242][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/pensal_yellow'
+[2018.05.13-05.28.08:242][  0]LoadErrors: Failed to load /Game/OFFICE/pensal_yellow.pensal_yellow Referenced by pensil
+[2018.05.13-05.28.08:242][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/pensal_yellow' while loading NULL.
+[2018.05.13-05.28.08:242][  0]LoadErrors: Failed to load /Game/OFFICE/pensal_yellow.pensal_yellow Referenced by pensil
+[2018.05.13-05.28.08:242][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/E'
+[2018.05.13-05.28.08:242][  0]LoadErrors: Failed to load /Game/OFFICE/E.E Referenced by pensil
+[2018.05.13-05.28.08:242][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/E' while loading NULL.
+[2018.05.13-05.28.08:242][  0]LoadErrors: Failed to load /Game/OFFICE/E.E Referenced by pensil
+[2018.05.13-05.28.08:242][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PENSIL_WOOD'
+[2018.05.13-05.28.08:242][  0]LoadErrors: Failed to load /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD Referenced by pensil
+[2018.05.13-05.28.08:242][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PENSIL_WOOD' while loading NULL.
+[2018.05.13-05.28.08:242][  0]LoadErrors: Failed to load /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD Referenced by pensil
+[2018.05.13-05.28.08:242][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/BLACK1'
+[2018.05.13-05.28.08:242][  0]LoadErrors: Failed to load /Game/OFFICE/BLACK1.BLACK1 Referenced by pensil
+[2018.05.13-05.28.08:243][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/BLACK1' while loading NULL.
+[2018.05.13-05.28.08:243][  0]LoadErrors: Failed to load /Game/OFFICE/BLACK1.BLACK1 Referenced by pensil
+[2018.05.13-05.28.08:243][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/metal_green'
+[2018.05.13-05.28.08:243][  0]LoadErrors: Failed to load /Game/OFFICE/metal_green.metal_green Referenced by pensil
+[2018.05.13-05.28.08:243][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/metal_green' while loading NULL.
+[2018.05.13-05.28.08:243][  0]LoadErrors: Failed to load /Game/OFFICE/metal_green.metal_green Referenced by pensil
+[2018.05.13-05.28.08:243][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/pensal_yellow'
+[2018.05.13-05.28.08:243][  0]LoadErrors: Failed to load /Game/OFFICE/pensal_yellow.pensal_yellow Referenced by pensil
+[2018.05.13-05.28.08:243][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/pensal_yellow' while loading NULL.
+[2018.05.13-05.28.08:243][  0]LoadErrors: Failed to load /Game/OFFICE/pensal_yellow.pensal_yellow Referenced by pensil
+[2018.05.13-05.28.08:243][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/E'
+[2018.05.13-05.28.08:243][  0]LoadErrors: Failed to load /Game/OFFICE/E.E Referenced by pensil
+[2018.05.13-05.28.08:243][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/E' while loading NULL.
+[2018.05.13-05.28.08:243][  0]LoadErrors: Failed to load /Game/OFFICE/E.E Referenced by pensil
+[2018.05.13-05.28.08:244][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PENSIL_WOOD'
+[2018.05.13-05.28.08:244][  0]LoadErrors: Failed to load /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD Referenced by pensil
+[2018.05.13-05.28.08:244][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PENSIL_WOOD' while loading NULL.
+[2018.05.13-05.28.08:244][  0]LoadErrors: Failed to load /Game/OFFICE/PENSIL_WOOD.PENSIL_WOOD Referenced by pensil
+[2018.05.13-05.28.08:244][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/BLACK1'
+[2018.05.13-05.28.08:244][  0]LoadErrors: Failed to load /Game/OFFICE/BLACK1.BLACK1 Referenced by pensil
+[2018.05.13-05.28.08:244][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/BLACK1' while loading NULL.
+[2018.05.13-05.28.08:244][  0]LoadErrors: Failed to load /Game/OFFICE/BLACK1.BLACK1 Referenced by pensil
+[2018.05.13-05.28.08:244][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PAPER1'
+[2018.05.13-05.28.08:244][  0]LoadErrors: Failed to load /Game/OFFICE/PAPER1.PAPER1 Referenced by Paper
+[2018.05.13-05.28.08:245][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PAPER1' while loading NULL.
+[2018.05.13-05.28.08:245][  0]LoadErrors: Failed to load /Game/OFFICE/PAPER1.PAPER1 Referenced by Paper
+[2018.05.13-05.28.08:245][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/INK'
+[2018.05.13-05.28.08:245][  0]LoadErrors: Failed to load /Game/OFFICE/INK.INK Referenced by Paper
+[2018.05.13-05.28.08:245][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/INK' while loading NULL.
+[2018.05.13-05.28.08:245][  0]LoadErrors: Failed to load /Game/OFFICE/INK.INK Referenced by Paper
+[2018.05.13-05.28.08:245][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/PAPER1'
+[2018.05.13-05.28.08:245][  0]LoadErrors: Failed to load /Game/OFFICE/PAPER1.PAPER1 Referenced by Paper
+[2018.05.13-05.28.08:245][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/PAPER1' while loading NULL.
+[2018.05.13-05.28.08:245][  0]LoadErrors: Failed to load /Game/OFFICE/PAPER1.PAPER1 Referenced by Paper
+[2018.05.13-05.28.08:245][  0]LogLinker: Warning: Can't find file '/Game/OFFICE/INK'
+[2018.05.13-05.28.08:245][  0]LoadErrors: Failed to load /Game/OFFICE/INK.INK Referenced by Paper
+[2018.05.13-05.28.08:245][  0]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/INK' while loading NULL.
+[2018.05.13-05.28.08:245][  0]LoadErrors: Failed to load /Game/OFFICE/INK.INK Referenced by Paper
+[2018.05.13-05.28.08:317][  0]LogSkeletalMesh: Skeletal Mesh found in DDC [0.396629ms] /Game/SideScrollerBP/Character/Paper_Tiger.Paper_Tiger
+[2018.05.13-05.28.08:401][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.13-05.28.08:418][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.13-05.28.08:434][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002177d7bf9c0, Size=312
+[2018.05.13-05.28.08:434][  0]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002171918fac0, Size=48
+[2018.05.13-05.28.08:435][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.13-05.28.08:564][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 129.148ms to complete.
+[2018.05.13-05.28.08:564][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.618
+[2018.05.13-05.28.08:652][  0]LogStats: Warning: MetaData mismatch. Did you assign a stat to two groups? New //STATGROUP_Threads//SplashScreenThread///Thread_3090_0///####STATCAT_Advanced#### old //STATGROUP_Threads//SplashScreenThread///Thread_3058_0///####STATCAT_Advanced####
+[2018.05.13-05.28.08:652][  0]LogCollectionManager: Loaded 0 collections in 0.002436 seconds
+[2018.05.13-05.28.08:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Collections/' took 0.01s
+[2018.05.13-05.28.08:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/Developers/Jeremy/Collections/' took 0.01s
+[2018.05.13-05.28.08:699][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/Collections/' took 0.01s
+[2018.05.13-05.28.08:699][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.13-05.28.08:709][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2452 classes and 558 folders.
+[2018.05.13-05.28.08:717][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.13-05.28.08:775][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.13-05.28.08:780][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.13-05.28.09:939][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.13-05.28.09:963][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.13-05.28.09:968][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.13-05.28.10:079][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ArtisanReunion
+[2018.05.13-05.28.10:079][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.13-05.28.10:080][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.19
+[2018.05.13-05.28.10:080][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.19\Engine\Binaries\DotNET\IOS
+[2018.05.13-05.28.10:080][  0]LogTemp: BranchPath = DESKTOP-LPQT5LQ/C/Program Files/Epic Games/UE_4.19/Engine/Binaries --- GameBranchPath = DESKTOP-LPQT5LQ/C/Program Files/Epic Games/UE_4.19/Engine/Binaries
+[2018.05.13-05.28.10:080][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jeremy\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.13-05.28.10:080][  0]LogRenderer: Reallocating scene render targets to support 660x292 Format 9 NumSamples 1 (Frame:1).
+[2018.05.13-05.28.10:687][  0]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.13-05.28.10:771][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.13-05.28.10:771][  0]LogLoad: (Engine Initialization) Total time: 18.63 seconds
+[2018.05.13-05.28.10:771][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.13-05.28.10:886][  0]LogContentStreaming: Texture pool size now 400 MB
+[2018.05.13-05.28.10:892][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.13-05.28.11:260][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/' took 0.47s
+[2018.05.13-05.28.11:851][  3]LogAssetRegistry: Asset discovery search completed in 14.3989 seconds
+[2018.05.13-05.28.11:854][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.13-05.28.11:854][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000065 seconds (updated 0 objects)
+[2018.05.13-05.28.11:907][  4]LogSlate: Took 0.000480 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.05.13-05.28.12:717][ 80]LogSlate: Window 'Message Log' being destroyed
+[2018.05.13-05.28.12:725][ 80]LogSlate: Window 'Message Log' being destroyed
+[2018.05.13-05.28.14:410][207]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.13-05.28.14:453][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:454][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset.
+[2018.05.13-05.28.14:454][212]LoadErrors: Error: /Game/ban1_Blueprint : Can't find file for asset. /Game/OFFICE/ENV/greensih
+[2018.05.13-05.28.14:455][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban1'
+[2018.05.13-05.28.14:455][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset.
+[2018.05.13-05.28.14:455][212]LoadErrors: Error: /Game/ban1_Blueprint : Can't find file for asset. /Game/OFFICE/ENV/ban1
+[2018.05.13-05.28.14:455][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:455][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset.
+[2018.05.13-05.28.14:455][212]LoadErrors: Error: /Game/ban1_Blueprint : Can't find file for asset. /Game/OFFICE/ENV/ban2
+[2018.05.13-05.28.14:456][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:456][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset.
+[2018.05.13-05.28.14:456][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban1'
+[2018.05.13-05.28.14:456][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban1' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset.
+[2018.05.13-05.28.14:456][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:456][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/ban1_Blueprint.uasset.
+[2018.05.13-05.28.14:457][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:457][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:457][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban1'
+[2018.05.13-05.28.14:457][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban1' while loading NULL.
+[2018.05.13-05.28.14:457][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:457][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:457][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:458][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:458][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban1'
+[2018.05.13-05.28.14:458][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban1' while loading NULL.
+[2018.05.13-05.28.14:458][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:458][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:459][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban1'
+[2018.05.13-05.28.14:459][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban1.ban1 Referenced by Default__ban1_Blueprint_C
+[2018.05.13-05.28.14:459][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban1' while loading NULL.
+[2018.05.13-05.28.14:460][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:460][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by Cube_GEN_VARIABLE
+[2018.05.13-05.28.14:461][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:461][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:461][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by Cube_GEN_VARIABLE
+[2018.05.13-05.28.14:461][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:461][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:461][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh_GEN_VARIABLE
+[2018.05.13-05.28.14:461][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:461][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:462][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh_GEN_VARIABLE
+[2018.05.13-05.28.14:462][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:462][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:462][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh1_GEN_VARIABLE
+[2018.05.13-05.28.14:462][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:462][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:462][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh1_GEN_VARIABLE
+[2018.05.13-05.28.14:462][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:463][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:463][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh2_GEN_VARIABLE
+[2018.05.13-05.28.14:463][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:463][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:463][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh2_GEN_VARIABLE
+[2018.05.13-05.28.14:463][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:463][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:463][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh3_GEN_VARIABLE
+[2018.05.13-05.28.14:464][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:464][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:464][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh3_GEN_VARIABLE
+[2018.05.13-05.28.14:464][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:464][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:464][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh4_GEN_VARIABLE
+[2018.05.13-05.28.14:464][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:464][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:465][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh4_GEN_VARIABLE
+[2018.05.13-05.28.14:465][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:465][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:465][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh5_GEN_VARIABLE
+[2018.05.13-05.28.14:465][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:465][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:465][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh5_GEN_VARIABLE
+[2018.05.13-05.28.14:465][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:466][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban1'
+[2018.05.13-05.28.14:466][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban1.ban1 Referenced by StaticMesh6_GEN_VARIABLE
+[2018.05.13-05.28.14:466][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban1' while loading NULL.
+[2018.05.13-05.28.14:466][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:466][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh7_GEN_VARIABLE
+[2018.05.13-05.28.14:466][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:467][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:467][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh7_GEN_VARIABLE
+[2018.05.13-05.28.14:467][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:467][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:467][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh8_GEN_VARIABLE
+[2018.05.13-05.28.14:467][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:467][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:468][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh8_GEN_VARIABLE
+[2018.05.13-05.28.14:468][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:468][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban1'
+[2018.05.13-05.28.14:468][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban1.ban1 Referenced by StaticMesh9_GEN_VARIABLE
+[2018.05.13-05.28.14:468][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban1' while loading NULL.
+[2018.05.13-05.28.14:468][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:468][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh10_GEN_VARIABLE
+[2018.05.13-05.28.14:469][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:469][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:469][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh10_GEN_VARIABLE
+[2018.05.13-05.28.14:469][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.14:469][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/ban2'
+[2018.05.13-05.28.14:469][212]LoadErrors: Failed to load /Game/OFFICE/ENV/ban2.ban2 Referenced by StaticMesh11_GEN_VARIABLE
+[2018.05.13-05.28.14:469][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/ban2' while loading NULL.
+[2018.05.13-05.28.14:470][212]LogLinker: Warning: Can't find file '/Game/OFFICE/ENV/greensih'
+[2018.05.13-05.28.14:470][212]LoadErrors: Failed to load /Game/OFFICE/ENV/greensih.greensih Referenced by StaticMesh11_GEN_VARIABLE
+[2018.05.13-05.28.14:470][212]LogLinker: Warning: Can't find file for asset '/Game/OFFICE/ENV/greensih' while loading NULL.
+[2018.05.13-05.28.20:392][640]Cmd: DELETE
+[2018.05.13-05.28.20:392][640]Cmd: ACTOR DELETE
+[2018.05.13-05.28.20:398][640]LogEditorActor: Deleted Actor: ban1_Blueprint_C
+[2018.05.13-05.28.20:421][640]LogEditorActor: Deleted 1 Actors (0.029 secs)
+[2018.05.13-05.28.22:518][812]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.13-05.28.23:320][875]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.13-05.28.28:378][262]Cmd: DELETE
+[2018.05.13-05.28.28:378][262]Cmd: ACTOR DELETE
+[2018.05.13-05.28.28:382][262]LogEditorActor: Deleted Actor: ban1_Blueprint_C
+[2018.05.13-05.28.28:398][262]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.05.13-05.28.33:470][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.13-05.28.45:381][137]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban1.fbx)
+[2018.05.13-05.28.45:397][137]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.05.13-05.28.45:397][137]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.05.13-05.28.45:397][137]LogFbx: ItemName: Model, ItemCount : 1
+[2018.05.13-05.28.45:397][137]LogFbx: ItemName: Material, ItemCount : 6
+[2018.05.13-05.28.45:402][137]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban1.fbx
+[2018.05.13-05.28.45:410][137]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.13-05.28.46:708][137]LogSlate: Window 'FBX Import Options' being destroyed
+[2018.05.13-05.28.46:764][137]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban1.fbx
+[2018.05.13-05.28.46:772][137]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.13-05.28.46:806][137]LogMaterial: Missing cached shader map for material greensih, compiling. 
+[2018.05.13-05.28.46:840][137]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.13-05.28.46:840][137]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.13-05.28.46:840][137]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.13-05.28.46:847][137]LogMaterial: Missing cached shader map for material banboo, compiling. 
+[2018.05.13-05.28.46:861][137]LogMaterial: Missing cached shader map for material stem, compiling. 
+[2018.05.13-05.28.46:880][137]LogMaterial: Missing cached shader map for material leaf, compiling. 
+[2018.05.13-05.28.46:897][137]LogMaterial: Missing cached shader map for material stem_001, compiling. 
+[2018.05.13-05.28.46:954][137]LogMaterial: Missing cached shader map for material leaf_001, compiling. 
+[2018.05.13-05.28.46:962][137]LogFbx: Warning: Triangulating static mesh Cylinder.001
+[2018.05.13-05.28.47:153][137]LogStaticMesh: Building static mesh ban1...
+[2018.05.13-05.28.47:204][137]LogStaticMesh: Built static mesh [0.07s] /Game/OFFICE/ENV/ban1.ban1
+[2018.05.13-05.28.47:239][137]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.13-05.28.47:306][137]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban2.fbx)
+[2018.05.13-05.28.47:320][137]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban2.fbx
+[2018.05.13-05.28.47:328][137]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.13-05.28.47:336][137]LogMaterial: Missing cached shader map for material greensih_001, compiling. 
+[2018.05.13-05.28.47:361][137]LogMaterial: Missing cached shader map for material banboo_001, compiling. 
+[2018.05.13-05.28.47:380][137]LogMaterial: Missing cached shader map for material stem_002, compiling. 
+[2018.05.13-05.28.47:398][137]LogMaterial: Missing cached shader map for material leaf_002, compiling. 
+[2018.05.13-05.28.47:406][137]LogFbx: Warning: Triangulating static mesh Cylinder.003
+[2018.05.13-05.28.47:534][137]LogStaticMesh: Building static mesh ban2...
+[2018.05.13-05.28.47:569][137]LogShaderCompilers: Display: Shaders left to compile 198
+[2018.05.13-05.28.47:569][137]LogStaticMesh: Built static mesh [0.04s] /Game/OFFICE/ENV/ban2.ban2
+[2018.05.13-05.28.47:609][137]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.13-05.28.47:631][137]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban3.fbx)
+[2018.05.13-05.28.47:642][137]LogFbx: Loading FBX Scene from ../../../../../../Users/Jeremy/Desktop/blend INtangent/ban3.fbx
+[2018.05.13-05.28.47:648][137]LogFbx: FBX Scene Loaded Succesfully
+[2018.05.13-05.28.47:663][137]LogMaterial: Missing cached shader map for material greensih_002, compiling. 
+[2018.05.13-05.28.47:709][137]LogMaterial: Missing cached shader map for material banboo_002, compiling. 
+[2018.05.13-05.28.47:717][137]LogFbx: Warning: Triangulating static mesh Cylinder.005
+[2018.05.13-05.28.47:779][137]LogStaticMesh: Building static mesh ban3...
+[2018.05.13-05.28.47:797][137]LogStaticMesh: Built static mesh [0.03s] /Game/OFFICE/ENV/ban3.ban3
+[2018.05.13-05.28.47:878][137]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.05.13-05.28.49:111][139]LogShaderCompilers: Display: Shaders left to compile 232
+[2018.05.13-05.28.49:512][172]LogShaderCompilers: Display: Shaders left to compile 222
+[2018.05.13-05.28.50:371][241]LogShaderCompilers: Display: Shaders left to compile 212
+[2018.05.13-05.28.51:635][243]LogShaderCompilers: Display: Shaders left to compile 202
+[2018.05.13-05.28.52:451][244]LogShaderCompilers: Display: Shaders left to compile 192
+[2018.05.13-05.28.52:452][244]LogSlate: Window 'Message Log' being destroyed
+[2018.05.13-05.28.52:458][244]LogSlate: Window 'Message Log' being destroyed
+[2018.05.13-05.28.52:856][246]LogShaderCompilers: Display: Shaders left to compile 182
+[2018.05.13-05.28.53:361][248]LogShaderCompilers: Display: Shaders left to compile 172
+[2018.05.13-05.28.54:669][249]LogShaderCompilers: Display: Shaders left to compile 162
+[2018.05.13-05.28.54:993][251]LogShaderCompilers: Display: Shaders left to compile 152
+[2018.05.13-05.28.55:345][253]LogShaderCompilers: Display: Shaders left to compile 142
+[2018.05.13-05.28.56:655][255]LogShaderCompilers: Display: Shaders left to compile 132
+[2018.05.13-05.28.56:897][259]LogShaderCompilers: Display: Shaders left to compile 122
+[2018.05.13-05.28.57:588][260]LogShaderCompilers: Display: Shaders left to compile 112
+[2018.05.13-05.28.57:591][260]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape3)
+[2018.05.13-05.28.57:668][260]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2018.05.13-05.28.58:734][356]LogShaderCompilers: Display: Shaders left to compile 102
+[2018.05.13-05.29.00:810][556]LogShaderCompilers: Display: Shaders left to compile 92
+[2018.05.13-05.29.01:705][643]LogShaderCompilers: Display: Shaders left to compile 82
+[2018.05.13-05.29.04:609][925]LogShaderCompilers: Display: Shaders left to compile 72
+[2018.05.13-05.29.04:779][941]LogShaderCompilers: Display: Shaders left to compile 62
+[2018.05.13-05.29.06:776][134]LogShaderCompilers: Display: Shaders left to compile 52
+[2018.05.13-05.29.09:499][399]LogShaderCompilers: Display: Shaders left to compile 42
+[2018.05.13-05.29.09:611][409]LogShaderCompilers: Display: Shaders left to compile 32
+[2018.05.13-05.29.12:816][725]LogShaderCompilers: Display: Shaders left to compile 22
+[2018.05.13-05.29.14:310][871]LogShaderCompilers: Display: Shaders left to compile 12
+[2018.05.13-05.29.16:042][ 41]LogShaderCompilers: Display: Shaders left to compile 2
+[2018.05.13-05.31.37:648][  7]Cmd: DELETE
+[2018.05.13-05.31.37:649][  7]Cmd: ACTOR DELETE
+[2018.05.13-05.31.37:655][  7]LogEditorActor: Deleted Actor: ban1_Blueprint_C
+[2018.05.13-05.31.37:673][  7]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2018.05.13-05.31.38:967][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.13-05.31.42:399][295]LogSlate: Window 'Delete Assets' being destroyed
+[2018.05.13-05.33.16:004][225]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2018.05.13-05.33.17:352][229]LogSlate: Window 'Save Content' being destroyed
+[2018.05.13-05.33.17:395][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/ban1" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban1.uasset" SILENT=true
+[2018.05.13-05.33.17:411][229]LogSavePackage: Save=13.18ms
+[2018.05.13-05.33.17:411][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/ban13CDE579B49E16A416CD8D8B4F9D4D191.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban1.uasset'
+[2018.05.13-05.33.17:418][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban1.uasset
+[2018.05.13-05.33.17:440][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/ban2" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban2.uasset" SILENT=true
+[2018.05.13-05.33.17:454][229]LogSavePackage: Save=11.80ms
+[2018.05.13-05.33.17:455][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/ban25F94CC584399878553010D9FD7CD6779.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban2.uasset'
+[2018.05.13-05.33.17:461][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban2.uasset
+[2018.05.13-05.33.17:478][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/ban3" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban3.uasset" SILENT=true
+[2018.05.13-05.33.17:492][229]LogSavePackage: Save=12.23ms
+[2018.05.13-05.33.17:492][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/ban363C7F0324151E5A43C268A8F6EB7293C.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban3.uasset'
+[2018.05.13-05.33.17:499][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/ban3.uasset
+[2018.05.13-05.33.17:520][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/banboo" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo.uasset" SILENT=true
+[2018.05.13-05.33.17:533][229]LogSavePackage: Save=9.88ms
+[2018.05.13-05.33.17:533][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/banboo7EFD72BD45497463DC75DF9E8C6B8761.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo.uasset'
+[2018.05.13-05.33.17:539][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo.uasset
+[2018.05.13-05.33.17:561][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/banboo_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo_001.uasset" SILENT=true
+[2018.05.13-05.33.17:573][229]LogSavePackage: Save=9.76ms
+[2018.05.13-05.33.17:573][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/banboo_0018CAC698342C9AD5664FFE79D4CF2A513.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo_001.uasset'
+[2018.05.13-05.33.17:580][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo_001.uasset
+[2018.05.13-05.33.17:599][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/banboo_002" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo_002.uasset" SILENT=true
+[2018.05.13-05.33.17:611][229]LogSavePackage: Save=10.05ms
+[2018.05.13-05.33.17:611][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/banboo_0022F92145F43863EA5DAB9948A43F2AF0A.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo_002.uasset'
+[2018.05.13-05.33.17:617][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/banboo_002.uasset
+[2018.05.13-05.33.17:641][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/greensih" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih.uasset" SILENT=true
+[2018.05.13-05.33.17:653][229]LogSavePackage: Save=10.14ms
+[2018.05.13-05.33.17:653][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/greensih406CB0CF4A3D5C92AD6816B17204EA56.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih.uasset'
+[2018.05.13-05.33.17:659][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih.uasset
+[2018.05.13-05.33.17:680][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/greensih_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih_001.uasset" SILENT=true
+[2018.05.13-05.33.17:693][229]LogSavePackage: Save=10.81ms
+[2018.05.13-05.33.17:693][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/greensih_0015DA9837F4CD4E7B93B05F198D74ED96A.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih_001.uasset'
+[2018.05.13-05.33.17:699][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih_001.uasset
+[2018.05.13-05.33.17:719][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/greensih_002" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih_002.uasset" SILENT=true
+[2018.05.13-05.33.17:733][229]LogSavePackage: Save=10.94ms
+[2018.05.13-05.33.17:733][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/greensih_002C49748BB44DD668B483B2B99CA9E7F7B.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih_002.uasset'
+[2018.05.13-05.33.17:739][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/greensih_002.uasset
+[2018.05.13-05.33.17:759][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/leaf" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf.uasset" SILENT=true
+[2018.05.13-05.33.17:772][229]LogSavePackage: Save=11.26ms
+[2018.05.13-05.33.17:772][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/leaf102BA1E84D4C142347F3559E8794D06C.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf.uasset'
+[2018.05.13-05.33.17:780][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf.uasset
+[2018.05.13-05.33.17:800][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/leaf_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf_001.uasset" SILENT=true
+[2018.05.13-05.33.17:813][229]LogSavePackage: Save=10.52ms
+[2018.05.13-05.33.17:814][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/leaf_00185A1512649AF120977C01EBA46FF5E06.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf_001.uasset'
+[2018.05.13-05.33.17:820][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf_001.uasset
+[2018.05.13-05.33.17:841][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/leaf_002" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf_002.uasset" SILENT=true
+[2018.05.13-05.33.17:854][229]LogSavePackage: Save=10.58ms
+[2018.05.13-05.33.17:854][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/leaf_002EF63D0C042BEE80405029FAA849D957D.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf_002.uasset'
+[2018.05.13-05.33.17:862][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/leaf_002.uasset
+[2018.05.13-05.33.17:882][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/stem" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem.uasset" SILENT=true
+[2018.05.13-05.33.17:896][229]LogSavePackage: Save=10.56ms
+[2018.05.13-05.33.17:896][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem529C5AC34F55D3626ACF8FA5F59E4565.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem.uasset'
+[2018.05.13-05.33.17:903][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem.uasset
+[2018.05.13-05.33.17:927][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/stem_001" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem_001.uasset" SILENT=true
+[2018.05.13-05.33.17:939][229]LogSavePackage: Save=9.89ms
+[2018.05.13-05.33.17:939][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem_001B8F7E227403BD7CE6E8112A2FEE2DA0D.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem_001.uasset'
+[2018.05.13-05.33.17:946][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem_001.uasset
+[2018.05.13-05.33.17:972][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/OFFICE/ENV/stem_002" FILE="../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem_002.uasset" SILENT=true
+[2018.05.13-05.33.17:987][229]LogSavePackage: Save=12.12ms
+[2018.05.13-05.33.17:987][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/stem_00244C44CF44B9B087E18B8629E5140BEA2.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem_002.uasset'
+[2018.05.13-05.33.17:993][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/OFFICE/ENV/stem_002.uasset
+[2018.05.13-05.33.18:251][229]LogSavePackage: Save=132.10ms
+[2018.05.13-05.33.18:251][229]LogSavePackage: Moving '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/SideScrollerExampleMap55B38DF948B933F4825379A050C507AC.tmp' to '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2018.05.13-05.33.18:258][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2018.05.13-05.33.18:302][229]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 0.303
+[2018.05.13-05.33.18:405][229]LogSlate: Window 'ArtisanReunion - Unreal Editor' being destroyed
+[2018.05.13-05.33.18:407][229]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.13-05.33.18:818][230]Cmd: QUIT_EDITOR
+[2018.05.13-05.33.18:861][230]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2018.05.13-05.33.18:861][230]LogExit: Preparing to exit.
+[2018.05.13-05.33.19:514][230]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/' was aborted.
+[2018.05.13-05.33.19:631][230]LogExit: Editor shut down
+[2018.05.13-05.33.19:637][230]LogExit: Transaction tracking system shut down
+[2018.05.13-05.33.19:639][230]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002177d7be0c0, Size=312
+[2018.05.13-05.33.19:639][230]LogUObjectGlobals: Destroyed PersistentFrame Addr=0x000002171918e680, Size=48
+[2018.05.13-05.33.19:895][230]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.13-05.33.19:895][230]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/' was aborted.
+[2018.05.13-05.33.19:895][230]LogDirectoryWatcher: A directory notification for '../../Plugins/2D/Paper2D/Content/' was aborted.
+[2018.05.13-05.33.19:895][230]LogDirectoryWatcher: A directory notification for '../../Plugins/Enterprise/DatasmithContent/Content/' was aborted.
+[2018.05.13-05.33.19:895][230]LogDirectoryWatcher: A directory notification for '../../Plugins/Media/MediaCompositing/Content/' was aborted.
+[2018.05.13-05.33.19:895][230]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/AppleARKit/Content/' was aborted.
+[2018.05.13-05.33.19:896][230]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2018.05.13-05.33.19:896][230]LogDirectoryWatcher: A directory notification for '../../Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2018.05.13-05.33.19:944][230]LogExit: Object subsystem successfully closed.
+[2018.05.13-05.33.19:960][230]LogShaderCompilers: Display: Shaders left to compile 0
+[2018.05.13-05.33.19:964][230]LogD3D11RHI: Shutdown
+[2018.05.13-05.33.19:964][230]LogD3D11RHI: CleanupD3DDevice
+[2018.05.13-05.33.19:986][230]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.13-05.33.20:009][230]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (576)
+[2018.05.13-05.33.20:009][230]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (574)
+[2018.05.13-05.33.20:009][230]LogModuleManager: Shutting down and abandoning module SceneOutliner (572)
+[2018.05.13-05.33.20:009][230]LogModuleManager: Shutting down and abandoning module AddContentDialog (570)
+[2018.05.13-05.33.20:009][230]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.19/FeaturePacks/' was aborted.
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module WidgetCarousel (569)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module EditorWidgets (566)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module CollectionManager (564)
+[2018.05.13-05.33.20:010][230]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/Collections/' was aborted.
+[2018.05.13-05.33.20:010][230]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Content/Developers/Jeremy/Collections/' was aborted.
+[2018.05.13-05.33.20:010][230]LogDirectoryWatcher: A directory notification for 'C:/Users/Jeremy/Documents/GitHub/ArtisanReunion/Saved/Collections/' was aborted.
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module StatsViewer (562)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module FoliageEdit (560)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module LandscapeEditor (558)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module MeshPaintMode (556)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (554)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module ActorPickerMode (552)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module GeometryMode (550)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module TextureAlignMode (548)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module BspMode (546)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (544)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module HardwareSurvey (542)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (540)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module AutomationWorker (538)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (536)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module SequenceRecorder (535)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (532)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (530)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module PlacementMode (529)
+[2018.05.13-05.33.20:010][230]LogModuleManager: Shutting down and abandoning module MaterialEditor (528)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (524)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (522)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (520)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (518)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (516)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (514)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (512)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (510)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (508)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (506)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module CharacterAI (504)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module SmartSnapping (502)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module SessionServices (500)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module ViewportSnapping (498)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module ViewportInteraction (496)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module ClothPainter (494)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (493)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module LogVisualizer (490)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module IntroTutorials (488)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (487)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (484)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (482)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (480)
+[2018.05.13-05.33.20:011][230]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (479)
+[2018.05.13-05.33.20:740][230]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (476)
+[2018.05.13-05.33.20:740][230]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (474)
+[2018.05.13-05.33.20:740][230]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (472)
+[2018.05.13-05.33.20:740][230]LogModuleManager: Shutting down and abandoning module InputBindingEditor (470)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module MergeActors (468)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (466)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module LocalizationService (465)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module HardwareTargeting (462)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (460)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module UndoHistory (458)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module XmlParser (456)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module Blutility (454)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (452)
+[2018.05.13-05.33.20:741][230]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (451)
+[2018.05.13-05.33.20:742][230]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (448)
+[2018.05.13-05.33.20:742][230]LogModuleManager: Shutting down and abandoning module SettingsEditor (446)
+[2018.05.13-05.33.20:742][230]LogModuleManager: Shutting down and abandoning module ProjectLauncher (444)
+[2018.05.13-05.33.20:742][230]LogModuleManager: Shutting down and abandoning module SessionFrontend (442)
+[2018.05.13-05.33.20:742][230]LogModuleManager: Shutting down and abandoning module ProfilerClient (440)
+[2018.05.13-05.33.20:742][230]LogModuleManager: Shutting down and abandoning module DeviceManager (438)
+[2018.05.13-05.33.20:742][230]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (437)
+[2018.05.13-05.33.20:786][230]LogModuleManager: Shutting down and abandoning module AutomationController (434)
+[2018.05.13-05.33.20:786][230]LogModuleManager: Shutting down and abandoning module AutomationWindow (432)
+[2018.05.13-05.33.20:786][230]LogModuleManager: Shutting down and abandoning module Layers (430)
+[2018.05.13-05.33.20:786][230]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (428)
+[2018.05.13-05.33.20:786][230]LogModuleManager: Shutting down and abandoning module DetailCustomizations (426)
+[2018.05.13-05.33.20:786][230]LogModuleManager: Shutting down and abandoning module PackagesDialog (424)
+[2018.05.13-05.33.20:787][230]LogModuleManager: Shutting down and abandoning module Persona (422)
+[2018.05.13-05.33.20:787][230]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (421)
+[2018.05.13-05.33.20:787][230]LogModuleManager: Shutting down and abandoning module AnimGraph (419)
+[2018.05.13-05.33.20:787][230]LogModuleManager: Shutting down and abandoning module Kismet (416)
+[2018.05.13-05.33.20:787][230]LogModuleManager: Shutting down and abandoning module GraphEditor (414)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module ClassViewer (412)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module Toolbox (410)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module ModuleUI (408)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module MovieSceneTools (406)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module OutputLog (404)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module GammaUI (402)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module Documentation (400)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (398)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module MovieScene (396)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (394)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module LauncherPlatform (392)
+[2018.05.13-05.33.20:788][230]LogModuleManager: Shutting down and abandoning module AnalyticsET (390)
+[2018.05.13-05.33.20:789][230]LogModuleManager: Shutting down and abandoning module PortalServices (388)
+[2018.05.13-05.33.20:789][230]LogModuleManager: Shutting down and abandoning module PortalRpc (386)
+[2018.05.13-05.33.20:789][230]LogModuleManager: Shutting down and abandoning module MessagingRpc (384)
+[2018.05.13-05.33.20:789][230]LogModuleManager: Shutting down and abandoning module AIModule (382)
+[2018.05.13-05.33.20:789][230]LogModuleManager: Shutting down and abandoning module GameplayDebugger (381)
+[2018.05.13-05.33.20:789][230]LogModuleManager: Shutting down and abandoning module AITestSuite (379)
+[2018.05.13-05.33.20:789][230]LogModuleManager: Shutting down and abandoning module DesktopPlatform (376)
+[2018.05.13-05.33.20:789][230]LogModuleManager: Shutting down and abandoning module ProfilerService (374)
+[2018.05.13-05.33.21:004][230]LogModuleManager: Shutting down and abandoning module TaskGraph (372)
+[2018.05.13-05.33.21:004][230]LogModuleManager: Shutting down and abandoning module SteamVRController (370)
+[2018.05.13-05.33.21:004][230]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (368)
+[2018.05.13-05.33.21:004][230]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (366)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module OculusInput (364)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (362)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (360)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module CableComponent (358)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module AudioCapture (356)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (354)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module AndroidPermission (352)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (348)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (346)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (344)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module MediaCompositing (342)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module LinearTimecode (340)
+[2018.05.13-05.33.21:005][230]LogModuleManager: Shutting down and abandoning module ImgMedia (338)
+[2018.05.13-05.33.21:014][230]LogModuleManager: Shutting down and abandoning module HTML5Networking (336)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module AlembicImporter (334)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module AlembicLibrary (333)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module GeometryCache (332)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (331)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module DatasmithContent (326)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (324)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module PluginBrowser (322)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (320)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (318)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module CryptoKeys (316)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (314)
+[2018.05.13-05.33.21:015][230]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (312)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module UObjectPlugin (310)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (308)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (306)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module GitSourceControl (304)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module SourceControl (303)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (300)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (298)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (296)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (294)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module Paper2DEditor (292)
+[2018.05.13-05.33.21:016][230]LogModuleManager: Shutting down and abandoning module MeshPaint (291)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (288)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (286)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module PhysXVehicles (284)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module OculusEditor (282)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (280)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (278)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (276)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module ActorSequence (274)
+[2018.05.13-05.33.21:017][230]LogModuleManager: Shutting down and abandoning module UdpMessaging (272)
+[2018.05.13-05.33.21:119][230]LogModuleManager: Shutting down and abandoning module TcpMessaging (270)
+[2018.05.13-05.33.21:219][230]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (268)
+[2018.05.13-05.33.21:219][230]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (266)
+[2018.05.13-05.33.21:219][230]LogModuleManager: Shutting down and abandoning module FacialAnimation (264)
+[2018.05.13-05.33.21:219][230]LogModuleManager: Shutting down and abandoning module DataValidation (262)
+[2018.05.13-05.33.21:219][230]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (260)
+[2018.05.13-05.33.21:219][230]LogModuleManager: Shutting down and abandoning module LevelEditor (259)
+[2018.05.13-05.33.21:222][230]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (258)
+[2018.05.13-05.33.21:222][230]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (256)
+[2018.05.13-05.33.21:222][230]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.05.13-05.33.21:223][230]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.05.13-05.33.21:224][230]LogModuleManager: Shutting down and abandoning module ContentBrowser (249)
+[2018.05.13-05.33.21:227][230]LogModuleManager: Shutting down and abandoning module TreeMap (247)
+[2018.05.13-05.33.21:227][230]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (244)
+[2018.05.13-05.33.21:227][230]LogModuleManager: Shutting down and abandoning module LiveLinkEditor (242)
+[2018.05.13-05.33.21:227][230]LogModuleManager: Shutting down and abandoning module LiveLink (240)
+[2018.05.13-05.33.21:928][230]LogModuleManager: Shutting down and abandoning module Paper2D (238)
+[2018.05.13-05.33.21:928][230]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (236)
+[2018.05.13-05.33.21:928][230]LogModuleManager: Shutting down and abandoning module WmfMedia (234)
+[2018.05.13-05.33.21:939][230]LogModuleManager: Shutting down and abandoning module Media (233)
+[2018.05.13-05.33.21:947][230]LogModuleManager: Shutting down and abandoning module PacketHandler (230)
+[2018.05.13-05.33.21:947][230]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (228)
+[2018.05.13-05.33.21:947][230]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (226)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module MediaAssets (224)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module Overlay (222)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module OverlayEditor (221)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module VREditor (218)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module StringTableEditor (216)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (214)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (212)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module FunctionalTesting (210)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (208)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (207)
+[2018.05.13-05.33.21:948][230]LogModuleManager: Shutting down and abandoning module UMG (204)
+[2018.05.13-05.33.21:949][230]LogModuleManager: Shutting down and abandoning module UMGEditor (203)
+[2018.05.13-05.33.21:949][230]LogModuleManager: Shutting down and abandoning module Sequencer (202)
+[2018.05.13-05.33.21:949][230]LogModuleManager: Shutting down and abandoning module MessageLog (199)
+[2018.05.13-05.33.21:949][230]LogModuleManager: Shutting down and abandoning module SlateReflector (194)
+[2018.05.13-05.33.21:949][230]LogModuleManager: Shutting down and abandoning module Slate (192)
+[2018.05.13-05.33.21:949][230]LogModuleManager: Shutting down and abandoning module EditorStyle (190)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module MRMesh (188)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (186)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (184)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module XAudio2 (182)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module Networking (180)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module Core (178)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module LevelSequence (176)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module KismetCompiler (174)
+[2018.05.13-05.33.21:955][230]LogModuleManager: Shutting down and abandoning module MeshUtilities (172)
+[2018.05.13-05.33.21:956][230]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (171)
+[2018.05.13-05.33.21:956][230]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (170)
+[2018.05.13-05.33.21:956][230]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (169)
+[2018.05.13-05.33.21:956][230]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (167)
+[2018.05.13-05.33.21:956][230]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (165)
+[2018.05.13-05.33.21:956][230]LogModuleManager: Shutting down and abandoning module MaterialBaking (161)
+[2018.05.13-05.33.21:956][230]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (157)
+[2018.05.13-05.33.21:959][230]LogModuleManager: Shutting down and abandoning module DerivedDataCache (154)
+[2018.05.13-05.33.22:012][230]LogDerivedDataCache: Shutdown
+[2018.05.13-05.33.22:012][230]LogModuleManager: Shutting down and abandoning module XGEController (152)
+[2018.05.13-05.33.22:012][230]LogXGEController: Cleaning working directory: C:/Users/Jeremy/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.13-05.33.22:012][230]LogModuleManager: Shutting down and abandoning module TargetPlatform (150)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (149)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (147)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (145)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (143)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (141)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (139)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (137)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (135)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (133)
+[2018.05.13-05.33.22:013][230]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (131)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module ImageWrapper (130)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (127)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (125)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (123)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (121)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (119)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (117)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (115)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (113)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (111)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module Messaging (109)
+[2018.05.13-05.33.22:014][230]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (107)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (105)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (103)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (101)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (99)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (97)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (95)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module Android_ETC1aTargetPlatform (93)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (91)
+[2018.05.13-05.33.22:015][230]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (89)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (87)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (85)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (83)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (81)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (79)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (77)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (75)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (73)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (71)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (69)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module InputCore (66)
+[2018.05.13-05.33.22:016][230]LogModuleManager: Shutting down and abandoning module Settings (64)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module PhysXCooking (62)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module SteamVR (60)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module OculusHMD (58)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (56)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module AppleARKit (54)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.13-05.33.22:017][230]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.13-05.33.22:017][230]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.05.13-05.33.22:017][230]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BC153E479-4C79-7108-39C0-3EB19018512C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.19.2-4033788%2B%2B%2BUE4%2BRelease-4.19&UserID=d8c6493744cfb050b734d5942cdbc41d%7C4c042a982eca439ea2a77c091ac57ca3%7Ce1e60466-6aeb-4d32-9887-fd4b69adc78b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.13-05.33.22:039][230]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.13-05.33.22:042][230]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.13-05.33.22:043][230]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.13-05.33.22:043][230]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.13-05.33.22:043][230]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.13-05.33.22:043][230]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.13-05.33.22:043][230]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.13-05.33.22:043][230]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.13-05.33.22:046][230]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.13-05.33.22:058][230]LogExit: Exiting.
+[2018.05.13-05.33.22:121][230]Log file closed, 05/13/18 01:33:22
