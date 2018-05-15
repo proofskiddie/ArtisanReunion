@@ -286,3 +286,121 @@ LogInit: Object subsystem initialized
 [2018.05.15-03.44.15:619][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
 [2018.05.15-03.44.15:672][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
 [2018.05.15-03.44.15:692][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.15-03.44.15:713][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.15-03.44.15:734][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.15-03.44.15:756][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.15-03.44.15:779][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.15-03.44.15:779][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.15-03.44.16:196][  0]LogXGEController: Cleaning working directory: C:/Users/Taylor/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2018.05.15-03.44.16:197][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.05.15-03.44.16:197][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.05.15-03.44.16:197][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.15-03.44.17:847][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.15-03.44.17:988][  0]LogDerivedDataCache: Loaded boot cache 0.14s 74MB C:/Users/Taylor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.15-03.44.17:988][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Taylor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc
+[2018.05.15-03.44.17:988][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Documents/GitHub/ArtisanReunion/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.15-03.44.17:988][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.15-03.44.17:988][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Documents/GitHub/ArtisanReunion/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.15-03.44.17:988][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.15-03.44.18:008][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.15-03.44.18:022][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Taylor/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.15-03.44.18:022][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.05.15-03.44.18:022][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.05.15-03.44.18:039][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.15-03.44.18:040][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.15-03.44.18:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-03.44.18:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-03.44.18:387][  0]LogAssetRegistry: FAssetRegistry took 0.0305 seconds to start up
+[2018.05.15-03.44.18:966][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-03.44.19:239][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.15-03.44.19:247][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.15-03.44.19:247][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.15-03.44.19:247][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.15-03.44.19:247][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.15-03.44.19:247][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.15-03.44.19:336][  0]LogNetVersion: ArtisanReunion , NetCL: 3944462, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2763199368)
+[2018.05.15-03.44.20:188][  0]LogPackageLocalizationCache: Processed 9 localized package path(s) for 2 prioritized culture(s) in 0.155054 seconds
+[2018.05.15-03.44.20:195][  0]LogUObjectArray: 36728 objects as part of root set at end of initial load.
+[2018.05.15-03.44.20:196][  0]LogUObjectAllocator: 7314312 out of 0 bytes used by permanent object pool.
+[2018.05.15-03.44.20:196][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.15-03.44.23:566][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.15-03.44.23:644][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.15-03.44.24:691][  0]SourceControl: Source control is disabled
+[2018.05.15-03.44.24:691][  0]SourceControl: Source control is disabled
+[2018.05.15-03.44.24:771][  0]SourceControl: Source control is disabled
+[2018.05.15-03.44.24:843][  0]SourceControl: Source control is disabled
+[2018.05.15-03.44.26:409][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.15-03.44.26:982][  0]LogOcInput: OculusInput pre-init called
+[2018.05.15-03.44.27:250][  0]LogEngine: Initializing Engine...
+[2018.05.15-03.44.27:253][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.15-03.44.27:255][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.15-03.44.27:255][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.15-03.44.27:593][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.15-03.44.27:661][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-03.44.27:752][  0]LogInit: FAudioDevice initialized.
+[2018.05.15-03.44.27:859][  0]LogDerivedDataCache: Saved boot cache 0.11s 74MB C:/Users/Taylor/AppData/Local/UnrealEngine/4.19/DerivedDataCache/Boot.ddc.
+[2018.05.15-03.44.27:887][  0]LogInit: Texture streaming: Enabled
+[2018.05.15-03.44.27:932][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.15-03.44.27:932][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={4B9788FA-469F-544B-44C7-4EACB5B82668}
+[2018.05.15-03.44.27:959][  0]LogInit: Transaction tracking system initialized
+[2018.05.15-03.44.28:015][  0]BlueprintLog: New page: Editor Load
+[2018.05.15-03.44.28:215][  0]LocalizationService: Localization service is disabled
+[2018.05.15-03.44.28:504][  0]LogConsoleResponse: Display: 
+[2018.05.15-03.44.28:771][  0]LogAutoReimportManager: Warning: Unable to watch directory D:/Documents/GitHub/ArtisanReunion/Content/ as it will conflict with another watching D:/Documents/GitHub/ArtisanReunion/Content/.
+[2018.05.15-03.44.28:783][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.15-03.44.28:783][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.15-03.44.28:783][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.15-03.44.28:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.15-03.44.28:783][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.15-03.44.29:591][  0]LogFileCache: Scanning file cache for directory 'D:/Documents/GitHub/ArtisanReunion/Content/' took 0.09s
+[2018.05.15-03.44.30:162][  0]SourceControl: Source control is disabled
+[2018.05.15-03.44.30:163][  0]Cmd: MAP LOAD FILE="D:/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.15-03.44.30:163][  0]LightingResults: New page: Lighting Build
+[2018.05.15-03.44.30:171][  0]MapCheck: New page: Map Check
+[2018.05.15-03.44.30:171][  0]LightingResults: New page: Lighting Build
+[2018.05.15-03.44.30:197][  0]LogReferenceChain: Searching referencers for /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData. This may take several minutes.
+[2018.05.15-03.44.30:321][  0]LogReferenceChain: Generating reference graph ...
+[2018.05.15-03.44.30:328][  0]LogReferenceChain: Level 0 has 2 nodes ...
+[2018.05.15-03.44.30:339][  0]LogReferenceChain: Level 1 added 1 nodes ...
+[2018.05.15-03.44.30:350][  0]LogReferenceChain: Level 2 added 0 nodes ...
+[2018.05.15-03.44.30:350][  0]LogReferenceChain: Generating reference chains ...
+[2018.05.15-03.44.30:350][  0]LogReferenceChain:   
+[2018.05.15-03.44.30:350][  0]LogReferenceChain: Internal Referencers:
+[2018.05.15-03.44.30:350][  0]LogReferenceChain:   
+[2018.05.15-03.44.31:994][  0]LogReferenceChain: (standalone) MetaData /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData./Game/Kami_Game_Map/Kami_Game_Map_BuiltData.PackageMetaData->0x00000000C45F5160 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2018.05.15-03.44.31:994][  0]LogReferenceChain:   (target) Package /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData
+[2018.05.15-03.44.31:994][  0]LogReferenceChain:   
+[2018.05.15-03.44.31:994][  0]LogReferenceChain: (standalone) MetaData /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData./Game/Kami_Game_Map/Kami_Game_Map_BuiltData.PackageMetaData->Outer
+[2018.05.15-03.44.31:994][  0]LogReferenceChain:   Package /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData./Game/Kami_Game_Map/Kami_Game_Map_BuiltData->Outer
+[2018.05.15-03.44.31:994][  0]LogReferenceChain:     (target) Package /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData
+[2018.05.15-03.44.32:173][  0]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.05.15-03.44.33:708][  0]LogWindows: Error: === Critical error: ===
+[2018.05.15-03.44.33:708][  0]LogWindows: Error: 
+[2018.05.15-03.44.33:708][  0]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.19+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\EditorServer.cpp] [Line: 2519] 
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: Failed to find the world in /Game/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: D:/Documents/GitHub/ArtisanReunion/Content/SideScrollerBP/Maps/SideScrollerExampleMap_BuiltData.umap
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: 
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: 
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000F2064008 KERNELBASE.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000E0577884 UE4Editor-ApplicationCore.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000C4CB6D9B UE4Editor-Core.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000C4BF1949 UE4Editor-Core.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000BB53D7B7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000BB52EEC5 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000BB512FE2 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000BBD90489 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000BB811E3B UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000BB811A8F UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000BBD485DE UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000BBD13CA3 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000C0E56AC6 UE4Editor.exe!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000C0E56C4A UE4Editor.exe!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000C0E64177 UE4Editor.exe!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000C0E65B87 UE4Editor.exe!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000F3391FE4 KERNEL32.DLL!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000F575F061 ntdll.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: [Callstack] 0x00000000F575F061 ntdll.dll!UnknownFunction []
+[2018.05.15-03.44.33:709][  0]LogWindows: Error: 
+[2018.05.15-03.44.33:728][  0]LogExit: Executing StaticShutdownAfterError
+[2018.05.15-03.44.33:731][  0]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.05.15-03.44.33:731][  0]Log file closed, 05/14/18 22:44:33
